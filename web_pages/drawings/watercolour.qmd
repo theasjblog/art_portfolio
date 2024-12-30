@@ -1,0 +1,17 @@
+---
+title: "Watercolour pencils"
+---
+
+:::{.lightbox-gallery}
+![Desc](/img/drawings/watercolour/IMG_7408.jpg){.lightbox width="200" group="my-gallery_1"}
+![Desc](/img/drawings/watercolour/IMG_7416.jpg){.lightbox width="200" group="my-gallery_1"}
+![Desc](/img/drawings/watercolour/IMG_7425.jpg){.lightbox width="200" group="my-gallery_1"}
+![Desc](/img/drawings/watercolour/IMG_7426.jpg){.lightbox width="200" group="my-gallery_1"}
+![Desc](/img/drawings/watercolour/IMG_7427.jpg){.lightbox width="200" group="my-gallery_1"}
+![Desc](/img/drawings/watercolour/IMG_7432.jpg){.lightbox width="200" group="my-gallery_1"}
+![Desc](/img/drawings/watercolour/IMG_7436.jpg){.lightbox width="200" group="my-gallery_1"}
+![Desc](/img/drawings/watercolour/IMG_7437.jpg){.lightbox width="200" group="my-gallery_1"}
+![Desc](/img/drawings/watercolour/IMG_7441.jpg){.lightbox width="200" group="my-gallery_1"}
+![Desc](/img/drawings/watercolour/IMG_7443.jpg){.lightbox width="200" group="my-gallery_1"}
+![Desc](/img/drawings/watercolour/IMG_7867.jpg){.lightbox width="200" group="my-gallery_1"}
+:::

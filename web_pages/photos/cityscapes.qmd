@@ -1,0 +1,43 @@
+---
+title: "Cityscapes"
+---
+
+:::{.lightbox-gallery}
+![Desc](/img/photos/cityscape/39258160165_8096e9f80b_o-Edit.jpg){.lightbox width="200" group="my-gallery_1"}
+![Desc](/img/photos/cityscape/DSCN0060_edited (1).jpg){.lightbox width="200" group="my-gallery_1"}
+![Desc](/img/photos/cityscape/DSCN1249_edited (1).jpg){.lightbox width="200" group="my-gallery_1"}
+![Desc](/img/photos/cityscape/DSCN1365_edited (1).jpg){.lightbox width="200" group="my-gallery_1"}
+![Desc](/img/photos/cityscape/DSCN5397 (1).jpg){.lightbox width="200" group="my-gallery_1"}
+![Desc](/img/photos/cityscape/IMG_20171230_135526425_HDR-EFFECTS (1).jpg){.lightbox width="200" group="my-gallery_1"}
+![Desc](/img/photos/cityscape/IMG_20171230_161234149 (1).jpg){.lightbox width="200" group="my-gallery_1"}
+![Desc](/img/photos/cityscape/IMG_20180428_121115273_HDR-Edit.jpg){.lightbox width="200" group="my-gallery_1"}
+![Desc](/img/photos/cityscape/IMG_20180515_073913800_HDR.jpg){.lightbox width="200" group="my-gallery_1"}
+![Desc](/img/photos/cityscape/IMG_2275.jpg){.lightbox width="200" group="my-gallery_1"}
+![Desc](/img/photos/cityscape/IMG_2284.jpg){.lightbox width="200" group="my-gallery_1"}
+![Desc](/img/photos/cityscape/IMG_2348.jpg){.lightbox width="200" group="my-gallery_1"}
+![Desc](/img/photos/cityscape/IMG_2437.jpg){.lightbox width="200" group="my-gallery_1"}
+![Desc](/img/photos/cityscape/IMG_2487.jpg){.lightbox width="200" group="my-gallery_1"}
+![Desc](/img/photos/cityscape/IMG_2540.jpg){.lightbox width="200" group="my-gallery_1"}
+![Desc](/img/photos/cityscape/IMG_2816.jpg){.lightbox width="200" group="my-gallery_1"}
+![Desc](/img/photos/cityscape/IMG_2898.jpg){.lightbox width="200" group="my-gallery_1"}
+![Desc](/img/photos/cityscape/IMG_2907.jpg){.lightbox width="200" group="my-gallery_1"}
+![Desc](/img/photos/cityscape/IMG_3099.jpg){.lightbox width="200" group="my-gallery_1"}
+![Desc](/img/photos/cityscape/IMG_3171.jpg){.lightbox width="200" group="my-gallery_1"}
+![Desc](/img/photos/cityscape/IMG_3186.jpg){.lightbox width="200" group="my-gallery_1"}
+![Desc](/img/photos/cityscape/IMG_3215.jpg){.lightbox width="200" group="my-gallery_1"}
+![Desc](/img/photos/cityscape/IMG_3435.jpg){.lightbox width="200" group="my-gallery_1"}
+![Desc](/img/photos/cityscape/IMG_3660.jpg){.lightbox width="200" group="my-gallery_1"}
+![Desc](/img/photos/cityscape/IMG_3725.jpg){.lightbox width="200" group="my-gallery_1"}
+![Desc](/img/photos/cityscape/IMG_4677-Pano-HDR-Edit.jpg){.lightbox width="200" group="my-gallery_1"}
+![Desc](/img/photos/cityscape/IMG_5775.jpg){.lightbox width="200" group="my-gallery_1"}
+![Desc](/img/photos/cityscape/IMG_6293.jpg){.lightbox width="200" group="my-gallery_1"}
+![Desc](/img/photos/cityscape/IMG_6358.jpg){.lightbox width="200" group="my-gallery_1"}
+![Desc](/img/photos/cityscape/IMG_7292.jpg){.lightbox width="200" group="my-gallery_1"}
+![Desc](/img/photos/cityscape/IMG_8213-Edit.jpg){.lightbox width="200" group="my-gallery_1"}
+![Desc](/img/photos/cityscape/IMG_8805-Edit.jpg){.lightbox width="200" group="my-gallery_1"}
+![Desc](/img/photos/cityscape/IMG_9308.jpg){.lightbox width="200" group="my-gallery_1"}
+![Desc](/img/photos/cityscape/IMG_9340.jpg){.lightbox width="200" group="my-gallery_1"}
+![Desc](/img/photos/cityscape/SDC10818.jpg){.lightbox width="200" group="my-gallery_1"}
+![Desc](/img/photos/cityscape/SDC11320_edited.jpg){.lightbox width="200" group="my-gallery_1"}
+![Desc](/img/photos/cityscape/SDC11649.jpg){.lightbox width="200" group="my-gallery_1"}
+:::

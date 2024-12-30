@@ -1,0 +1,26 @@
+---
+title: "Graphite"
+---
+
+:::{.lightbox-gallery}
+![Desc](/img/drawings/graphite/2022-05-28_100344.jpg){.lightbox width="200" group="my-gallery_1"}
+![Desc](/img/drawings/graphite/2022-05-28_100816.jpg){.lightbox width="200" group="my-gallery_1"}
+![Desc](/img/drawings/graphite/Document_2022-05-28_101502.jpg){.lightbox width="200" group="my-gallery_1"}
+![Desc](/img/drawings/graphite/IMG_1735.png){.lightbox width="200" group="my-gallery_1"}
+![Desc](/img/drawings/graphite/IMG_7448.jpg){.lightbox width="200" group="my-gallery_1"}
+![Desc](/img/drawings/graphite/IMG_7450.jpg){.lightbox width="200" group="my-gallery_1"}
+![Desc](/img/drawings/graphite/IMG_7859.jpg){.lightbox width="200" group="my-gallery_1"}
+![Desc](/img/drawings/graphite/IMG_7860.jpg){.lightbox width="200" group="my-gallery_1"}
+![Desc](/img/drawings/graphite/IMG_7861.jpg){.lightbox width="200" group="my-gallery_1"}
+![Desc](/img/drawings/graphite/IMG_7862.jpg){.lightbox width="200" group="my-gallery_1"}
+![Desc](/img/drawings/graphite/IMG_7863.jpg){.lightbox width="200" group="my-gallery_1"}
+![Desc](/img/drawings/graphite/IMG_7866.jpg){.lightbox width="200" group="my-gallery_1"}
+![Desc](/img/drawings/graphite/IMG_7884.jpg){.lightbox width="200" group="my-gallery_1"}
+![Desc](/img/drawings/graphite/IMG_7885.jpg){.lightbox width="200" group="my-gallery_1"}
+![Desc](/img/drawings/graphite/IMG_7986.jpg){.lightbox width="200" group="my-gallery_1"}
+![Desc](/img/drawings/graphite/IMG_8165.jpg){.lightbox width="200" group="my-gallery_1"}
+![Desc](/img/drawings/graphite/Photo_2022-05-28_100018.jpg){.lightbox width="200" group="my-gallery_1"}
+![Desc](/img/drawings/graphite/Photo_2022-05-28_101122.jpg){.lightbox width="200" group="my-gallery_1"}
+![Desc](/img/drawings/graphite/Photo_2022-05-28_101259.jpg){.lightbox width="200" group="my-gallery_1"}
+![Desc](/img/drawings/graphite/venice.png){.lightbox width="200" group="my-gallery_1"}
+:::

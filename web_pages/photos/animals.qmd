@@ -1,0 +1,28 @@
+---
+title: "Animals"
+---
+
+:::{.lightbox-gallery}
+![Desc](/img/photos/animals/IMG_0200.jpg){.lightbox width="200" group="my-gallery_1"}
+![Desc](/img/photos/animals/IMG_0305.jpg){.lightbox width="200" group="my-gallery_1"}
+![Desc](/img/photos/animals/IMG_0355.jpg){.lightbox width="200" group="my-gallery_1"}
+![Desc](/img/photos/animals/IMG_0480.jpg){.lightbox width="200" group="my-gallery_1"}
+![Desc](/img/photos/animals/IMG_0499.jpg){.lightbox width="200" group="my-gallery_1"}
+![Desc](/img/photos/animals/IMG_0529.jpg){.lightbox width="200" group="my-gallery_1"}
+![Desc](/img/photos/animals/IMG_0574.jpg){.lightbox width="200" group="my-gallery_1"}
+![Desc](/img/photos/animals/IMG_0826.jpg){.lightbox width="200" group="my-gallery_1"}
+![Desc](/img/photos/animals/IMG_1246-Edit.jpg){.lightbox width="200" group="my-gallery_1"}
+![Desc](/img/photos/animals/IMG_1713.jpg){.lightbox width="200" group="my-gallery_1"}
+![Desc](/img/photos/animals/IMG_1949.jpg){.lightbox width="200" group="my-gallery_1"}
+![Desc](/img/photos/animals/IMG_2007.jpg){.lightbox width="200" group="my-gallery_1"}
+![Desc](/img/photos/animals/IMG_4466.jpg){.lightbox width="200" group="my-gallery_1"}
+![Desc](/img/photos/animals/IMG_4490.jpg){.lightbox width="200" group="my-gallery_1"}
+![Desc](/img/photos/animals/IMG_5978.jpg){.lightbox width="200" group="my-gallery_1"}
+![Desc](/img/photos/animals/IMG_6790.jpg){.lightbox width="200" group="my-gallery_1"}
+![Desc](/img/photos/animals/IMG_8233.jpg){.lightbox width="200" group="my-gallery_1"}
+![Desc](/img/photos/animals/IMG_8253.jpg){.lightbox width="200" group="my-gallery_1"}
+![Desc](/img/photos/animals/IMG_8319.jpg){.lightbox width="200" group="my-gallery_1"}
+![Desc](/img/photos/animals/IMG_9014.jpg){.lightbox width="200" group="my-gallery_1"}
+![Desc](/img/photos/animals/IMG_9272.jpg){.lightbox width="200" group="my-gallery_1"}
+![Desc](/img/photos/animals/IMG_9320.jpg){.lightbox width="200" group="my-gallery_1"}
+:::

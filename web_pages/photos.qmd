@@ -1,0 +1,22 @@
+---
+title: "Pictures galleries"
+---
+
+## Animlas
+[![](/img/photos/animals/IMG_0200.jpg){width="500"}](photos/animals.html)
+
+## Cityscape
+[![](/img/photos/cityscape/39258160165_8096e9f80b_o-Edit.jpg){width="500"}](photos/cityscapes.html)
+
+
+## Landscape
+[![](/img/photos/landscape/GOPR4461.jpg){width="500"}](photos/landscapes.html)
+
+## Monochrome
+[![](/img/photos/monochrome/IMG_0691.jpg){width="500"}](photos/monos.html)
+
+## Close-ups
+[![](/img/photos/macro/IMG_1220.jpg){width="500"}](photos/macros.html)
+
+## Anaglyph 3D
+[![](/img/photos/anaglyph/butterfly_done.jpg){width="500"}](photos/anaglyphs.html)

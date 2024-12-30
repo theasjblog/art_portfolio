@@ -1,0 +1,6 @@
+# Photography
+[![](img/photos/animals/IMG_0305.jpg){width="500"}](web_pages/photos.html)
+
+# Drawing
+[![](img/drawings/watercolour/IMG_7416.jpg){width="500"}](web_pages/drawings.html)
+

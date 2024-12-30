@@ -1,0 +1,7 @@
+---
+title: "About"
+about:
+  template: jolla
+---
+
+This website is simply a collection of my best pictures and drawings. I am no under illusion that they are any good, but I like them and they are proof of a learning journey. When I look back at the earlier work, I can clearly see an improvement, and that is enough for me.
