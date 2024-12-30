@@ -1,0 +1,11 @@
+---
+title: "Carving"
+---
+
+## Pumpkins
+[![](/img/carving/pumpkins/2024.png){width="500"}](carving/pumpkins.html)
+
+## Wood
+
+Coming soon
+<!--[![](/img/photos/cityscape/39258160165_8096e9f80b_o-Edit.jpg){width="500"}](photos/cityscapes.html)-->

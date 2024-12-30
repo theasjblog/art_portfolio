@@ -3,6 +3,10 @@ project:
 
 website:
   title: "Portfolio"
+  site-url: https://theasjblog.github.io/art_portfolio/
+  description: "Art portfolio"
+  cookie-consent: false
+  google-analytics: "G-4433R405V8"
   navbar:
     left:
       - href: index.qmd
@@ -11,6 +15,8 @@ website:
         text: Pictures
       - href: web_pages/drawings.qmd
         text: Drawings
+      - href: web_pages/carving.qmd
+        text: Carving
       - href: web_pages/about.qmd
         text: About
       
