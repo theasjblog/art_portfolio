@@ -2,7 +2,7 @@
 title: "Pictures galleries"
 ---
 
-## Animlas
+## Animals
 [![](/img/photos/animals/IMG_0200.jpg){width="500"}](photos/animals.html)
 
 ## Cityscape
