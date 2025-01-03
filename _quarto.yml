@@ -2,9 +2,10 @@ project:
   type: website
 
 website:
-  title: "Portfolio"
+  title: '![AJ Portfolio](/img/logo.png)'
   site-url: https://theasjblog.github.io/art_portfolio/
   description: "Art portfolio"
+  favicon: /img/logo.png
   cookie-consent: false
   google-analytics: "G-4433R405V8"
   navbar:

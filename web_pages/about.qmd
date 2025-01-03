@@ -1,5 +1,6 @@
 ---
 title: "About"
+image: /img/logo.png
 about:
   template: jolla
 ---
