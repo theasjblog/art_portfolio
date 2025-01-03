@@ -2,7 +2,7 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Photography",
+    "title": "AJ Portfolio",
     "section": "",
     "text": "Photography\n\n\n\nDrawing\n\n\n\nCarving"
   },
@@ -12,13 +12,6 @@
     "title": "About",
     "section": "",
     "text": "This website is simply a collection of my best pictures and drawings. I am no under illusion that they are any good, but I like them and they are proof of a learning journey. When I look back at the earlier work, I can clearly see an improvement, and that is enough for me."
-  },
-  {
-    "objectID": "web_pages/carving.html#wood",
-    "href": "web_pages/carving.html#wood",
-    "title": "Carving",
-    "section": "Wood",
-    "text": "Wood\nComing soon"
   },
   {
     "objectID": "web_pages/drawings.html#watercolour-pencils",
@@ -33,6 +26,13 @@
     "title": "Drawing galleries",
     "section": "Digital",
     "text": "Digital"
+  },
+  {
+    "objectID": "web_pages/carving.html#wood",
+    "href": "web_pages/carving.html#wood",
+    "title": "Carving",
+    "section": "Wood",
+    "text": "Wood"
   },
   {
     "objectID": "web_pages/photos.html#cityscape",
