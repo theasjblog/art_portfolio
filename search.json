@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "AJ Portfolio",
     "section": "",
-    "text": "Photography\n\n\n\nPhotography gallery\n\n\n\n\nDrawing\n\n\n\nDrawing gallery\n\n\n\n\nCarving\n\n\n\nCarving gallery"
+    "text": "Photography\n\n\n\nDrawing\n\n\n\nCarving"
   },
   {
     "objectID": "web_pages/about.html",
@@ -14,88 +14,46 @@
     "text": "This website is simply a collection of my best pictures and drawings. I am no under illusion that they are any good, but I like them and they are proof of a learning journey. When I look back at the earlier work, I can clearly see an improvement, and that is enough for me."
   },
   {
-    "objectID": "web_pages/drawings.html",
-    "href": "web_pages/drawings.html",
-    "title": "Drawing galleries",
-    "section": "",
-    "text": "Graphite work"
-  },
-  {
-    "objectID": "web_pages/drawings.html#graphite",
-    "href": "web_pages/drawings.html#graphite",
-    "title": "Drawing galleries",
-    "section": "",
-    "text": "Graphite work"
-  },
-  {
     "objectID": "web_pages/drawings.html#watercolour-pencils",
     "href": "web_pages/drawings.html#watercolour-pencils",
     "title": "Drawing galleries",
     "section": "Watercolour pencils",
-    "text": "Watercolour pencils\n\n\n\nWatercolour pencils work"
+    "text": "Watercolour pencils"
   },
   {
     "objectID": "web_pages/drawings.html#digital-art",
     "href": "web_pages/drawings.html#digital-art",
     "title": "Drawing galleries",
     "section": "Digital Art",
-    "text": "Digital Art\n\n\n\nDigital art work"
-  },
-  {
-    "objectID": "web_pages/carving.html",
-    "href": "web_pages/carving.html",
-    "title": "Carving",
-    "section": "",
-    "text": "Pumpkins carving"
-  },
-  {
-    "objectID": "web_pages/carving.html#pumpkins",
-    "href": "web_pages/carving.html#pumpkins",
-    "title": "Carving",
-    "section": "",
-    "text": "Pumpkins carving"
+    "text": "Digital Art"
   },
   {
     "objectID": "web_pages/carving.html#wood",
     "href": "web_pages/carving.html#wood",
     "title": "Carving",
     "section": "Wood",
-    "text": "Wood\n\n\n\nWood carving"
-  },
-  {
-    "objectID": "web_pages/photos.html",
-    "href": "web_pages/photos.html",
-    "title": "Pictures galleries",
-    "section": "",
-    "text": "Animals gallery"
-  },
-  {
-    "objectID": "web_pages/photos.html#animals",
-    "href": "web_pages/photos.html#animals",
-    "title": "Pictures galleries",
-    "section": "",
-    "text": "Animals gallery"
+    "text": "Wood"
   },
   {
     "objectID": "web_pages/photos.html#cityscapes",
     "href": "web_pages/photos.html#cityscapes",
     "title": "Pictures galleries",
     "section": "Cityscapes",
-    "text": "Cityscapes\n\n\n\nCityscapes gallery"
+    "text": "Cityscapes"
   },
   {
     "objectID": "web_pages/photos.html#landscapes",
     "href": "web_pages/photos.html#landscapes",
     "title": "Pictures galleries",
     "section": "Landscapes",
-    "text": "Landscapes\n\n\n\nLandscapes gallery"
+    "text": "Landscapes"
   },
   {
     "objectID": "web_pages/photos.html#monochromes",
     "href": "web_pages/photos.html#monochromes",
     "title": "Pictures galleries",
     "section": "Monochromes",
-    "text": "Monochromes\n\n\n\nMonochromes gallery"
+    "text": "Monochromes"
   },
   {
     "objectID": "web_pages/photos.html#close-ups",
@@ -109,7 +67,7 @@
     "href": "web_pages/photos.html#anaglyph-3d",
     "title": "Pictures galleries",
     "section": "Anaglyph 3D",
-    "text": "Anaglyph 3D\n\n\n\nAnaglyph 3D gallery"
+    "text": "Anaglyph 3D"
   },
   {
     "objectID": "web_pages/photos/anaglyphs.html",
