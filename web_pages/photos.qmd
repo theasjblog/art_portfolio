@@ -3,20 +3,20 @@ title: "Pictures galleries"
 ---
 
 ## Animals
-[![Animals gallery](/img/photos/animals/IMG_0200.jpg){width="500"}](photos/animals.html)
+[![](/img/photos/animals/IMG_0200.jpg){width="500"}](photos/animals.html)
 
 ## Cityscapes
-[![Cityscapes gallery](/img/photos/cityscape/39258160165_8096e9f80b_o-Edit.jpg){width="500"}](photos/cityscapes.html)
+[![](/img/photos/cityscape/39258160165_8096e9f80b_o-Edit.jpg){width="500"}](photos/cityscapes.html)
 
 
 ## Landscapes
-[![Landscapes gallery](/img/photos/landscape/GOPR4461.jpg){width="500"}](photos/landscapes.html)
+[![](/img/photos/landscape/GOPR4461.jpg){width="500"}](photos/landscapes.html)
 
 ## Monochromes
-[![Monochromes gallery](/img/photos/monochrome/IMG_0691.jpg){width="500"}](photos/monos.html)
+[![](/img/photos/monochrome/IMG_0691.jpg){width="500"}](photos/monos.html)
 
 ## Close-ups
 [![Close-ups gallery](/img/photos/macro/IMG_1220.jpg){width="500"}](photos/macros.html)
 
 ## Anaglyph 3D
-[![Anaglyph 3D gallery](/img/photos/anaglyph/butterfly_done.jpg){width="500"}](photos/anaglyphs.html)
+[![](/img/photos/anaglyph/butterfly_done.jpg){width="500"}](photos/anaglyphs.html)
