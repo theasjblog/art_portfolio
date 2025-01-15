@@ -2,27 +2,32 @@
 title: "Anaglyphs 3D"
 ---
 
+[Anaglyphs 3D](https://en.wikipedia.org/wiki/Anaglyph_3D) are those "old" school 3D effects that require the two colour lenses to be seen. Grab a pair and enjoy this 3D gallery.
+
+![Anaglyph 3D lenses](/img/3D_lenses.png)
+
+
 :::{.lightbox-gallery}
-![Desc](/img/photos/anaglyph/alexandra_done.jpg){.lightbox width="200" group="my-gallery_1"}
-![Desc](/img/photos/anaglyph/boat_done.jpg){.lightbox width="200" group="my-gallery_1"}
-![Desc](/img/photos/anaglyph/butterfly_done.jpg){.lightbox width="200" group="my-gallery_1"}
-![Desc](/img/photos/anaglyph/cat_done.jpg){.lightbox width="200" group="my-gallery_1"}
-![Desc](/img/photos/anaglyph/deer_done.jpg){.lightbox width="200" group="my-gallery_1"}
-![Desc](/img/photos/anaglyph/driving_done.jpg){.lightbox width="200" group="my-gallery_1"}
-![Desc](/img/photos/anaglyph/DSCN2471-Edit.jpg){.lightbox width="200" group="my-gallery_1"}
-![Desc](/img/photos/anaglyph/frog_done.jpg){.lightbox width="200" group="my-gallery_1"}
-![Desc](/img/photos/anaglyph/guy_done.jpg){.lightbox width="200" group="my-gallery_1"}
-![Desc](/img/photos/anaglyph/harps_done.jpg){.lightbox width="200" group="my-gallery_1"}
-![Desc](/img/photos/anaglyph/IMG_2007-Edit.jpg){.lightbox width="200" group="my-gallery_1"}
-![Desc](/img/photos/anaglyph/IMG_2169-Edit.jpg){.lightbox width="200" group="my-gallery_1"}
-![Desc](/img/photos/anaglyph/IMG_2630.jpg){.lightbox width="200" group="my-gallery_1"}
-![Desc](/img/photos/anaglyph/interior_done.jpg){.lightbox width="200" group="my-gallery_1"}
-![Desc](/img/photos/anaglyph/kayak_done.jpg){.lightbox width="200" group="my-gallery_1"}
-![Desc](/img/photos/anaglyph/london_done.jpg){.lightbox width="200" group="my-gallery_1"}
-![Desc](/img/photos/anaglyph/monk_done.jpg){.lightbox width="200" group="my-gallery_1"}
-![Desc](/img/photos/anaglyph/snail_done.jpg){.lightbox width="200" group="my-gallery_1"}
-![Desc](/img/photos/anaglyph/snail00_done.jpg){.lightbox width="200" group="my-gallery_1"}
-![Desc](/img/photos/anaglyph/squirrel_done.jpg){.lightbox width="200" group="my-gallery_1"}
-![Desc](/img/photos/anaglyph/Untitled-1.jpg){.lightbox width="200" group="my-gallery_1"}
-![Desc](/img/photos/anaglyph/us_done.jpg){.lightbox width="200" group="my-gallery_1"}
+![A glass of wine by the lake](/img/photos/anaglyph/alexandra_done.jpg){.lightbox width="200" group="my-gallery_1"}
+![Kennisis lake](/img/photos/anaglyph/boat_done.jpg){.lightbox width="200" group="my-gallery_1"}
+![Batterfly](/img/photos/anaglyph/butterfly_done.jpg){.lightbox width="200" group="my-gallery_1"}
+![Kipling Grove](/img/photos/anaglyph/cat_done.jpg){.lightbox width="200" group="my-gallery_1"}
+![Richmond park](/img/photos/anaglyph/deer_done.jpg){.lightbox width="200" group="my-gallery_1"}
+![Driving](/img/photos/anaglyph/driving_done.jpg){.lightbox width="200" group="my-gallery_1"}
+![Seals](/img/photos/anaglyph/DSCN2471-Edit.jpg){.lightbox width="200" group="my-gallery_1"}
+![Frog](/img/photos/anaglyph/frog_done.jpg){.lightbox width="200" group="my-gallery_1"}
+![Waiting](/img/photos/anaglyph/guy_done.jpg){.lightbox width="200" group="my-gallery_1"}
+![Harmonicas](/img/photos/anaglyph/harps_done.jpg){.lightbox width="200" group="my-gallery_1"}
+![Butterfly](/img/photos/anaglyph/IMG_2007-Edit.jpg){.lightbox width="200" group="my-gallery_1"}
+![Sheep](/img/photos/anaglyph/IMG_2169-Edit.jpg){.lightbox width="200" group="my-gallery_1"}
+![Tiger](/img/photos/anaglyph/IMG_2630.jpg){.lightbox width="200" group="my-gallery_1"}
+![Indoor colonial house](/img/photos/anaglyph/interior_done.jpg){.lightbox width="200" group="my-gallery_1"}
+![Kennisis lake](/img/photos/anaglyph/kayak_done.jpg){.lightbox width="200" group="my-gallery_1"}
+![London](/img/photos/anaglyph/london_done.jpg){.lightbox width="200" group="my-gallery_1"}
+![Chipmunk](/img/photos/anaglyph/monk_done.jpg){.lightbox width="200" group="my-gallery_1"}
+![Snail](/img/photos/anaglyph/snail_done.jpg){.lightbox width="200" group="my-gallery_1"}
+![Snail](/img/photos/anaglyph/snail00_done.jpg){.lightbox width="200" group="my-gallery_1"}
+![Squirrel](/img/photos/anaglyph/squirrel_done.jpg){.lightbox width="200" group="my-gallery_1"}
+![Bronte](/img/photos/anaglyph/Untitled-1.jpg){.lightbox width="200" group="my-gallery_1"}
+![Red Pine lake](/img/photos/anaglyph/us_done.jpg){.lightbox width="200" group="my-gallery_1"}
 :::
