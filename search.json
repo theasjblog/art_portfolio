@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "AJ Portfolio",
     "section": "",
-    "text": "Photography\n\n\n\nDrawing\n\n\n\nCarving"
+    "text": "Photography\n\n\n\nPhotography gallery\n\n\n\n\nDrawing\n\n\n\nDrawing gallery\n\n\n\n\nCarving\n\n\n\nCarving gallery"
   },
   {
     "objectID": "web_pages/about.html",
@@ -14,59 +14,108 @@
     "text": "This website is simply a collection of my best pictures and drawings. I am no under illusion that they are any good, but I like them and they are proof of a learning journey. When I look back at the earlier work, I can clearly see an improvement, and that is enough for me."
   },
   {
+    "objectID": "web_pages/drawings.html",
+    "href": "web_pages/drawings.html",
+    "title": "Drawing galleries",
+    "section": "",
+    "text": "Graphite work"
+  },
+  {
+    "objectID": "web_pages/drawings.html#graphite",
+    "href": "web_pages/drawings.html#graphite",
+    "title": "Drawing galleries",
+    "section": "",
+    "text": "Graphite work"
+  },
+  {
     "objectID": "web_pages/drawings.html#watercolour-pencils",
     "href": "web_pages/drawings.html#watercolour-pencils",
     "title": "Drawing galleries",
     "section": "Watercolour pencils",
-    "text": "Watercolour pencils"
+    "text": "Watercolour pencils\n\n\n\nWatercolour pencils work"
   },
   {
-    "objectID": "web_pages/drawings.html#digital",
-    "href": "web_pages/drawings.html#digital",
+    "objectID": "web_pages/drawings.html#digital-art",
+    "href": "web_pages/drawings.html#digital-art",
     "title": "Drawing galleries",
-    "section": "Digital",
-    "text": "Digital"
+    "section": "Digital Art",
+    "text": "Digital Art\n\n\n\nDigital art work"
+  },
+  {
+    "objectID": "web_pages/carving.html",
+    "href": "web_pages/carving.html",
+    "title": "Carving",
+    "section": "",
+    "text": "Pumpkins carving"
+  },
+  {
+    "objectID": "web_pages/carving.html#pumpkins",
+    "href": "web_pages/carving.html#pumpkins",
+    "title": "Carving",
+    "section": "",
+    "text": "Pumpkins carving"
   },
   {
     "objectID": "web_pages/carving.html#wood",
     "href": "web_pages/carving.html#wood",
     "title": "Carving",
     "section": "Wood",
-    "text": "Wood"
+    "text": "Wood\n\n\n\nWood carving"
   },
   {
-    "objectID": "web_pages/photos.html#cityscape",
-    "href": "web_pages/photos.html#cityscape",
+    "objectID": "web_pages/photos.html",
+    "href": "web_pages/photos.html",
     "title": "Pictures galleries",
-    "section": "Cityscape",
-    "text": "Cityscape"
+    "section": "",
+    "text": "Animals gallery"
   },
   {
-    "objectID": "web_pages/photos.html#landscape",
-    "href": "web_pages/photos.html#landscape",
+    "objectID": "web_pages/photos.html#animals",
+    "href": "web_pages/photos.html#animals",
     "title": "Pictures galleries",
-    "section": "Landscape",
-    "text": "Landscape"
+    "section": "",
+    "text": "Animals gallery"
   },
   {
-    "objectID": "web_pages/photos.html#monochrome",
-    "href": "web_pages/photos.html#monochrome",
+    "objectID": "web_pages/photos.html#cityscapes",
+    "href": "web_pages/photos.html#cityscapes",
     "title": "Pictures galleries",
-    "section": "Monochrome",
-    "text": "Monochrome"
+    "section": "Cityscapes",
+    "text": "Cityscapes\n\n\n\nCityscapes gallery"
+  },
+  {
+    "objectID": "web_pages/photos.html#landscapes",
+    "href": "web_pages/photos.html#landscapes",
+    "title": "Pictures galleries",
+    "section": "Landscapes",
+    "text": "Landscapes\n\n\n\nLandscapes gallery"
+  },
+  {
+    "objectID": "web_pages/photos.html#monochromes",
+    "href": "web_pages/photos.html#monochromes",
+    "title": "Pictures galleries",
+    "section": "Monochromes",
+    "text": "Monochromes\n\n\n\nMonochromes gallery"
   },
   {
     "objectID": "web_pages/photos.html#close-ups",
     "href": "web_pages/photos.html#close-ups",
     "title": "Pictures galleries",
     "section": "Close-ups",
-    "text": "Close-ups"
+    "text": "Close-ups\n\n\n\nClose-ups gallery"
   },
   {
     "objectID": "web_pages/photos.html#anaglyph-3d",
     "href": "web_pages/photos.html#anaglyph-3d",
     "title": "Pictures galleries",
     "section": "Anaglyph 3D",
-    "text": "Anaglyph 3D"
+    "text": "Anaglyph 3D\n\n\n\nAnaglyph 3D gallery"
+  },
+  {
+    "objectID": "web_pages/photos/anaglyphs.html",
+    "href": "web_pages/photos/anaglyphs.html",
+    "title": "Anaglyphs 3D",
+    "section": "",
+    "text": "Anaglyphs 3D are those “old” school 3D effects that require the two colour lenses to be seen. Grab a pair and enjoy this 3D gallery.\n\n\n\nAnaglyph 3D lenses"
   }
 ]
