@@ -3,12 +3,12 @@ title: "Wood"
 ---
 
 :::{.lightbox-gallery}
-![Desc](/img/carving/wood/IMG_1808.png){.lightbox width="200" group="my-gallery_1"}
-![Desc](/img/carving/wood/IMG_1809.png){.lightbox width="200" group="my-gallery_1"}
-![Desc](/img/carving/wood/IMG_1810.png){.lightbox width="200" group="my-gallery_1"}
-![Desc](/img/carving/wood/IMG_1811.png){.lightbox width="200" group="my-gallery_1"}
-![Desc](/img/carving/wood/IMG_1812.png){.lightbox width="200" group="my-gallery_1"}
-![Desc](/img/carving/wood/IMG_1813.png){.lightbox width="200" group="my-gallery_1"}
-![Desc](/img/carving/wood/IMG_1814.png){.lightbox width="200" group="my-gallery_1"}
+![Owl. 0.5inch by 6cm.](/img/carving/wood/IMG_1808.png){.lightbox width="200" group="my-gallery_1"}
+![Little man, my first one. 1.5inch by 10cm.](/img/carving/wood/IMG_1809.png){.lightbox width="200" group="my-gallery_1"}
+![Autumn carving. 1.5inch by 10cm.](/img/carving/wood/IMG_1810.png){.lightbox width="200" group="my-gallery_1"}
+![Little old guy. 1.5inch by 10cm.](/img/carving/wood/IMG_1811.png){.lightbox width="200" group="my-gallery_1"}
+![Tiny guy. This one is about 1inch tall.](/img/carving/wood/IMG_1812.png){.lightbox width="200" group="my-gallery_1"}
+![Skinny snowman. 2cm by 12cm.](/img/carving/wood/IMG_1813.png){.lightbox width="200" group="my-gallery_1"}
+![Santa. 2cm by 12cm.](/img/carving/wood/IMG_1814.png){.lightbox width="200" group="my-gallery_1"}
 
 :::

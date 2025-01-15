@@ -3,16 +3,16 @@ title: "Close-ups"
 ---
 
 :::{.lightbox-gallery}
-![Desc](/img/photos/macro/00 (1).jpg){.lightbox width="200" group="my-gallery_1"}
-![Desc](/img/photos/macro/DSCN5935_edited.jpg){.lightbox width="200" group="my-gallery_1"}
-![Desc](/img/photos/macro/IMG_0746.jpg){.lightbox width="200" group="my-gallery_1"}
-![Desc](/img/photos/macro/IMG_1220.jpg){.lightbox width="200" group="my-gallery_1"}
-![Desc](/img/photos/macro/IMG_7035.jpg){.lightbox width="200" group="my-gallery_1"}
-![Desc](/img/photos/macro/IMG_7229.jpg){.lightbox width="200" group="my-gallery_1"}
-![Desc](/img/photos/macro/IMG_7256.jpg){.lightbox width="200" group="my-gallery_1"}
-![Desc](/img/photos/macro/IMG_7485.jpg){.lightbox width="200" group="my-gallery_1"}
-![Desc](/img/photos/macro/IMG_7503.jpg){.lightbox width="200" group="my-gallery_1"}
-![Desc](/img/photos/macro/IMG_7807-Edit-Edit-Edit.jpg){.lightbox width="200" group="my-gallery_1"}
-![Desc](/img/photos/macro/IMG_8083.jpg){.lightbox width="200" group="my-gallery_1"}
-![Desc](/img/photos/macro/IMG_9709.jpg){.lightbox width="200" group="my-gallery_1"}
+![Eye.](/img/photos/macro/00 (1).jpg){.lightbox width="200" group="my-gallery_1"}
+![Flower.](/img/photos/macro/DSCN5935_edited.jpg){.lightbox width="200" group="my-gallery_1"}
+![Harvest.](/img/photos/macro/IMG_0746.jpg){.lightbox width="200" group="my-gallery_1"}
+![Lighter.](/img/photos/macro/IMG_1220.jpg){.lightbox width="200" group="my-gallery_1"}
+![Water drop.](/img/photos/macro/IMG_7035.jpg){.lightbox width="200" group="my-gallery_1"}
+![Water drop.](/img/photos/macro/IMG_7229.jpg){.lightbox width="200" group="my-gallery_1"}
+![Water drop.](/img/photos/macro/IMG_7256.jpg){.lightbox width="200" group="my-gallery_1"}
+![Blow it.](/img/photos/macro/IMG_7485.jpg){.lightbox width="200" group="my-gallery_1"}
+![Cut tree.](/img/photos/macro/IMG_7503.jpg){.lightbox width="200" group="my-gallery_1"}
+![Exploding ballon. This one gave the first prize in my company Photography contest.](/img/photos/macro/IMG_7807-Edit-Edit-Edit.jpg){.lightbox width="200" group="my-gallery_1"}
+![Spices.](/img/photos/macro/IMG_8083.jpg){.lightbox width="200" group="my-gallery_1"}
+![Ice.](/img/photos/macro/IMG_9709.jpg){.lightbox width="200" group="my-gallery_1"}
 :::

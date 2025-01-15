@@ -3,41 +3,41 @@ title: "Cityscapes"
 ---
 
 :::{.lightbox-gallery}
-![Desc](/img/photos/cityscape/39258160165_8096e9f80b_o-Edit.jpg){.lightbox width="200" group="my-gallery_1"}
-![Desc](/img/photos/cityscape/DSCN0060_edited (1).jpg){.lightbox width="200" group="my-gallery_1"}
-![Desc](/img/photos/cityscape/DSCN1249_edited (1).jpg){.lightbox width="200" group="my-gallery_1"}
-![Desc](/img/photos/cityscape/DSCN1365_edited (1).jpg){.lightbox width="200" group="my-gallery_1"}
-![Desc](/img/photos/cityscape/DSCN5397 (1).jpg){.lightbox width="200" group="my-gallery_1"}
-![Desc](/img/photos/cityscape/IMG_20171230_135526425_HDR-EFFECTS (1).jpg){.lightbox width="200" group="my-gallery_1"}
-![Desc](/img/photos/cityscape/IMG_20171230_161234149 (1).jpg){.lightbox width="200" group="my-gallery_1"}
-![Desc](/img/photos/cityscape/IMG_20180428_121115273_HDR-Edit.jpg){.lightbox width="200" group="my-gallery_1"}
-![Desc](/img/photos/cityscape/IMG_20180515_073913800_HDR.jpg){.lightbox width="200" group="my-gallery_1"}
-![Desc](/img/photos/cityscape/IMG_2275.jpg){.lightbox width="200" group="my-gallery_1"}
-![Desc](/img/photos/cityscape/IMG_2284.jpg){.lightbox width="200" group="my-gallery_1"}
-![Desc](/img/photos/cityscape/IMG_2348.jpg){.lightbox width="200" group="my-gallery_1"}
-![Desc](/img/photos/cityscape/IMG_2437.jpg){.lightbox width="200" group="my-gallery_1"}
-![Desc](/img/photos/cityscape/IMG_2487.jpg){.lightbox width="200" group="my-gallery_1"}
-![Desc](/img/photos/cityscape/IMG_2540.jpg){.lightbox width="200" group="my-gallery_1"}
-![Desc](/img/photos/cityscape/IMG_2816.jpg){.lightbox width="200" group="my-gallery_1"}
-![Desc](/img/photos/cityscape/IMG_2898.jpg){.lightbox width="200" group="my-gallery_1"}
-![Desc](/img/photos/cityscape/IMG_2907.jpg){.lightbox width="200" group="my-gallery_1"}
-![Desc](/img/photos/cityscape/IMG_3099.jpg){.lightbox width="200" group="my-gallery_1"}
-![Desc](/img/photos/cityscape/IMG_3171.jpg){.lightbox width="200" group="my-gallery_1"}
-![Desc](/img/photos/cityscape/IMG_3186.jpg){.lightbox width="200" group="my-gallery_1"}
-![Desc](/img/photos/cityscape/IMG_3215.jpg){.lightbox width="200" group="my-gallery_1"}
-![Desc](/img/photos/cityscape/IMG_3435.jpg){.lightbox width="200" group="my-gallery_1"}
-![Desc](/img/photos/cityscape/IMG_3660.jpg){.lightbox width="200" group="my-gallery_1"}
-![Desc](/img/photos/cityscape/IMG_3725.jpg){.lightbox width="200" group="my-gallery_1"}
-![Desc](/img/photos/cityscape/IMG_4677-Pano-HDR-Edit.jpg){.lightbox width="200" group="my-gallery_1"}
-![Desc](/img/photos/cityscape/IMG_5775.jpg){.lightbox width="200" group="my-gallery_1"}
-![Desc](/img/photos/cityscape/IMG_6293.jpg){.lightbox width="200" group="my-gallery_1"}
-![Desc](/img/photos/cityscape/IMG_6358.jpg){.lightbox width="200" group="my-gallery_1"}
-![Desc](/img/photos/cityscape/IMG_7292.jpg){.lightbox width="200" group="my-gallery_1"}
-![Desc](/img/photos/cityscape/IMG_8213-Edit.jpg){.lightbox width="200" group="my-gallery_1"}
-![Desc](/img/photos/cityscape/IMG_8805-Edit.jpg){.lightbox width="200" group="my-gallery_1"}
-![Desc](/img/photos/cityscape/IMG_9308.jpg){.lightbox width="200" group="my-gallery_1"}
-![Desc](/img/photos/cityscape/IMG_9340.jpg){.lightbox width="200" group="my-gallery_1"}
-![Desc](/img/photos/cityscape/SDC10818.jpg){.lightbox width="200" group="my-gallery_1"}
-![Desc](/img/photos/cityscape/SDC11320_edited.jpg){.lightbox width="200" group="my-gallery_1"}
-![Desc](/img/photos/cityscape/SDC11649.jpg){.lightbox width="200" group="my-gallery_1"}
+![Instanbul, near Hagia Sophia](/img/photos/cityscape/39258160165_8096e9f80b_o-Edit.jpg){.lightbox width="200" group="my-gallery_1"}
+![Toronto from The CN tower, looking West](/img/photos/cityscape/DSCN0060_edited (1).jpg){.lightbox width="200" group="my-gallery_1"}
+![Hagia Sophia, Instanbul](/img/photos/cityscape/DSCN1249_edited (1).jpg){.lightbox width="200" group="my-gallery_1"}
+![Instanbul](/img/photos/cityscape/DSCN1365_edited (1).jpg){.lightbox width="200" group="my-gallery_1"}
+![Arena di Verona](/img/photos/cityscape/DSCN5397 (1).jpg){.lightbox width="200" group="my-gallery_1"}
+![Venice](/img/photos/cityscape/IMG_20171230_135526425_HDR-EFFECTS (1).jpg){.lightbox width="200" group="my-gallery_1"}
+![Venice](/img/photos/cityscape/IMG_20171230_161234149 (1).jpg){.lightbox width="200" group="my-gallery_1"}
+![Some hidden corner of London, where my wife and I got our wedding rings](/img/photos/cityscape/IMG_20180428_121115273_HDR-Edit.jpg){.lightbox width="200" group="my-gallery_1"}
+![Hemel Hampstead, UK](/img/photos/cityscape/IMG_20180515_073913800_HDR.jpg){.lightbox width="200" group="my-gallery_1"}
+![Altare della Patria, Rome](/img/photos/cityscape/IMG_2275.jpg){.lightbox width="200" group="my-gallery_1"}
+![Piazza San Pietro, Vatican City](/img/photos/cityscape/IMG_2284.jpg){.lightbox width="200" group="my-gallery_1"}
+![Ponte Sant'Antangelo, Rome](/img/photos/cityscape/IMG_2348.jpg){.lightbox width="200" group="my-gallery_1"}
+![Cotswolds, UK](/img/photos/cityscape/IMG_2437.jpg){.lightbox width="200" group="my-gallery_1"}
+![Florence](/img/photos/cityscape/IMG_2487.jpg){.lightbox width="200" group="my-gallery_1"}
+![Florence](/img/photos/cityscape/IMG_2540.jpg){.lightbox width="200" group="my-gallery_1"}
+![English countryside](/img/photos/cityscape/IMG_2816.jpg){.lightbox width="200" group="my-gallery_1"}
+![Hemel Hempstead](/img/photos/cityscape/IMG_2898.jpg){.lightbox width="200" group="my-gallery_1"}
+![Manarola, Cinque Terre](/img/photos/cityscape/IMG_2907.jpg){.lightbox width="200" group="my-gallery_1"}
+![Manarola, Cinque Terre](/img/photos/cityscape/IMG_3099.jpg){.lightbox width="200" group="my-gallery_1"}
+![Blenhaim Palace, UK](/img/photos/cityscape/IMG_3171.jpg){.lightbox width="200" group="my-gallery_1"}
+![Blenheim Palace, UK](/img/photos/cityscape/IMG_3186.jpg){.lightbox width="200" group="my-gallery_1"}
+![Blenheim Palace, UK](/img/photos/cityscape/IMG_3215.jpg){.lightbox width="200" group="my-gallery_1"}
+![UK](/img/photos/cityscape/IMG_3435.jpg){.lightbox width="200" group="my-gallery_1"}
+![Cardiff, Wales](/img/photos/cityscape/IMG_3660.jpg){.lightbox width="200" group="my-gallery_1"}
+![Arboretum in England](/img/photos/cityscape/IMG_3725.jpg){.lightbox width="200" group="my-gallery_1"}
+![English countryside](/img/photos/cityscape/IMG_4677-Pano-HDR-Edit.jpg){.lightbox width="200" group="my-gallery_1"}
+![English countryside](/img/photos/cityscape/IMG_5775.jpg){.lightbox width="200" group="my-gallery_1"}
+![CN Tower, Toronto](/img/photos/cityscape/IMG_6293.jpg){.lightbox width="200" group="my-gallery_1"}
+![Kew Gardens, London, UK](/img/photos/cityscape/IMG_6358.jpg){.lightbox width="200" group="my-gallery_1"}
+![Natural Science Museum, London, UK](/img/photos/cityscape/IMG_7292.jpg){.lightbox width="200" group="my-gallery_1"}
+![York](/img/photos/cityscape/IMG_8213-Edit.jpg){.lightbox width="200" group="my-gallery_1"}
+![Borough market, London, UK](/img/photos/cityscape/IMG_8805-Edit.jpg){.lightbox width="200" group="my-gallery_1"}
+![Some castle near Dover, UK](/img/photos/cityscape/IMG_9308.jpg){.lightbox width="200" group="my-gallery_1"}
+![York](/img/photos/cityscape/IMG_9340.jpg){.lightbox width="200" group="my-gallery_1"}
+![Whitby Abbey](/img/photos/cityscape/SDC10818.jpg){.lightbox width="200" group="my-gallery_1"}
+![Peak district, UK](/img/photos/cityscape/SDC11320_edited.jpg){.lightbox width="200" group="my-gallery_1"}
+![Birmingham, UK](/img/photos/cityscape/SDC11649.jpg){.lightbox width="200" group="my-gallery_1"}
 :::

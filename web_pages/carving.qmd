@@ -3,8 +3,8 @@ title: "Carving"
 ---
 
 ## Pumpkins
-[![](/img/carving/pumpkins/2024.png){width="500"}](carving/pumpkins.html)
+[![Pumpkins carving](/img/carving/pumpkins/2024.png){width="500"}](carving/pumpkins.html)
 
 ## Wood
 
-[![](/img/carving/wood/IMG_1811.png){width="500"}](carving/wood.html)
+[![Wood carving](/img/carving/wood/IMG_1811.png){width="500"}](carving/wood.html)

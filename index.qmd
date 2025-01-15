@@ -3,10 +3,10 @@ title: "AJ Portfolio"
 ---
 
 # Photography
-[![](img/photos/animals/IMG_0305.jpg){width="500"}](web_pages/photos.html)
+[![Photography gallery](img/photos/animals/IMG_0305.jpg){width="500"}](web_pages/photos.html)
 
 # Drawing
-[![](img/drawings/watercolour/IMG_7416.jpg){width="500"}](web_pages/drawings.html)
+[![Drawing gallery](img/drawings/watercolour/IMG_7416.jpg){width="500"}](web_pages/drawings.html)
 
 # Carving
-[![](img/carving/pumpkins/2024.png){width="500"}](web_pages/carving.html)
+[![Carving gallery](img/carving/pumpkins/2024.png){width="500"}](web_pages/carving.html)
