@@ -3,26 +3,26 @@ title: "Animals"
 ---
 
 :::{.lightbox-gallery}
-![Chipmunk, Kennisis lake](/img/photos/animals/IMG_0200.jpg){.lightbox width="200" group="my-gallery_1"}
-![Snake, London zoo](/img/photos/animals/IMG_0305.jpg){.lightbox width="200" group="my-gallery_1"}
-![Frog, London zoo](/img/photos/animals/IMG_0355.jpg){.lightbox width="200" group="my-gallery_1"}
-![Lemur, London zoo](/img/photos/animals/IMG_0480.jpg){.lightbox width="200" group="my-gallery_1"}
-![Lioness, London zoo](/img/photos/animals/IMG_0499.jpg){.lightbox width="200" group="my-gallery_1"}
-![Lion, London zoo](/img/photos/animals/IMG_0529.jpg){.lightbox width="200" group="my-gallery_1"}
-![Monkey, London zoo](/img/photos/animals/IMG_0574.jpg){.lightbox width="200" group="my-gallery_1"}
-![Bird, somewhere in UK](/img/photos/animals/IMG_0826.jpg){.lightbox width="200" group="my-gallery_1"}
-![Squirrel, Hemel Hampstead](/img/photos/animals/IMG_1246-Edit.jpg){.lightbox width="200" group="my-gallery_1"}
-![Giraffe, London zoo](/img/photos/animals/IMG_1713.jpg){.lightbox width="200" group="my-gallery_1"}
-![Whipsnade zoo](/img/photos/animals/IMG_1949.jpg){.lightbox width="200" group="my-gallery_1"}
-![Butterfly, London zoo](/img/photos/animals/IMG_2007.jpg){.lightbox width="200" group="my-gallery_1"}
-![Wolf, Haliburton Wolf Centre](/img/photos/animals/IMG_4466.jpg){.lightbox width="200" group="my-gallery_1"}
-![Wolf, Haliburton Wolf Centre](/img/photos/animals/IMG_4490.jpg){.lightbox width="200" group="my-gallery_1"}
-![Cotswolds](/img/photos/animals/IMG_5978.jpg){.lightbox width="200" group="my-gallery_1"}
-![Cat, Italy](/img/photos/animals/IMG_6790.jpg){.lightbox width="200" group="my-gallery_1"}
-![Squirrel, Hemel Hampsead](/img/photos/animals/IMG_8233.jpg){.lightbox width="200" group="my-gallery_1"}
-![Squirrel, Hemel Hampsead](/img/photos/animals/IMG_8253.jpg){.lightbox width="200" group="my-gallery_1"}
-![Squirrel, Hemel Hampsead](/img/photos/animals/IMG_8319.jpg){.lightbox width="200" group="my-gallery_1"}
-![Penguin, London zoo](/img/photos/animals/IMG_9014.jpg){.lightbox width="200" group="my-gallery_1"}
-![Somewhere near Dover](/img/photos/animals/IMG_9272.jpg){.lightbox width="200" group="my-gallery_1"}
-![Fox, somewhere near Dover](/img/photos/animals/IMG_9320.jpg){.lightbox width="200" group="my-gallery_1"}
+![Chipmunk, Kennisis lake](https://storage.googleapis.com/blogs_josa/creative/photos/animals/IMG_0200.jpg){.lightbox width="200" group="my-gallery_1"}
+![Snake, London zoo](https://storage.googleapis.com/blogs_josa/creative/photos/animals/IMG_0305.jpg){.lightbox width="200" group="my-gallery_1"}
+![Frog, London zoo](https://storage.googleapis.com/blogs_josa/creative/photos/animals/IMG_0355.jpg){.lightbox width="200" group="my-gallery_1"}
+![Lemur, London zoo](https://storage.googleapis.com/blogs_josa/creative/photos/animals/IMG_0480.jpg){.lightbox width="200" group="my-gallery_1"}
+![Lioness, London zoo](https://storage.googleapis.com/blogs_josa/creative/photos/animals/IMG_0499.jpg){.lightbox width="200" group="my-gallery_1"}
+![Lion, London zoo](https://storage.googleapis.com/blogs_josa/creative/photos/animals/IMG_0529.jpg){.lightbox width="200" group="my-gallery_1"}
+![Monkey, London zoo](https://storage.googleapis.com/blogs_josa/creative/photos/animals/IMG_0574.jpg){.lightbox width="200" group="my-gallery_1"}
+![Bird, somewhere in UK](https://storage.googleapis.com/blogs_josa/creative/photos/animals/IMG_0826.jpg){.lightbox width="200" group="my-gallery_1"}
+![Squirrel, Hemel Hampstead](https://storage.googleapis.com/blogs_josa/creative/photos/animals/IMG_1246-Edit.jpg){.lightbox width="200" group="my-gallery_1"}
+![Giraffe, London zoo](https://storage.googleapis.com/blogs_josa/creative/photos/animals/IMG_1713.jpg){.lightbox width="200" group="my-gallery_1"}
+![Whipsnade zoo](https://storage.googleapis.com/blogs_josa/creative/photos/animals/IMG_1949.jpg){.lightbox width="200" group="my-gallery_1"}
+![Butterfly, London zoo](https://storage.googleapis.com/blogs_josa/creative/photos/animals/IMG_2007.jpg){.lightbox width="200" group="my-gallery_1"}
+![Wolf, Haliburton Wolf Centre](https://storage.googleapis.com/blogs_josa/creative/photos/animals/IMG_4466.jpg){.lightbox width="200" group="my-gallery_1"}
+![Wolf, Haliburton Wolf Centre](https://storage.googleapis.com/blogs_josa/creative/photos/animals/IMG_4490.jpg){.lightbox width="200" group="my-gallery_1"}
+![Cotswolds](https://storage.googleapis.com/blogs_josa/creative/photos/animals/IMG_5978.jpg){.lightbox width="200" group="my-gallery_1"}
+![Cat, Italy](https://storage.googleapis.com/blogs_josa/creative/photos/animals/IMG_6790.jpg){.lightbox width="200" group="my-gallery_1"}
+![Squirrel, Hemel Hampsead](https://storage.googleapis.com/blogs_josa/creative/photos/animals/IMG_8233.jpg){.lightbox width="200" group="my-gallery_1"}
+![Squirrel, Hemel Hampsead](https://storage.googleapis.com/blogs_josa/creative/photos/animals/IMG_8253.jpg){.lightbox width="200" group="my-gallery_1"}
+![Squirrel, Hemel Hampsead](https://storage.googleapis.com/blogs_josa/creative/photos/animals/IMG_8319.jpg){.lightbox width="200" group="my-gallery_1"}
+![Penguin, London zoo](https://storage.googleapis.com/blogs_josa/creative/photos/animals/IMG_9014.jpg){.lightbox width="200" group="my-gallery_1"}
+![Somewhere near Dover](https://storage.googleapis.com/blogs_josa/creative/photos/animals/IMG_9272.jpg){.lightbox width="200" group="my-gallery_1"}
+![Fox, somewhere near Dover](https://storage.googleapis.com/blogs_josa/creative/photos/animals/IMG_9320.jpg){.lightbox width="200" group="my-gallery_1"}
 :::

@@ -3,24 +3,24 @@ title: "Graphite"
 ---
 
 :::{.lightbox-gallery}
-![Dog.](/img/drawings/graphite/2022-05-28_100344.jpg){.lightbox width="200" group="my-gallery_1"}
-![Cat.](/img/drawings/graphite/2022-05-28_100816.jpg){.lightbox width="200" group="my-gallery_1"}
-![Oscar.](/img/drawings/graphite/Document_2022-05-28_101502.jpg){.lightbox width="200" group="my-gallery_1"}
-![Sofia.](/img/drawings/graphite/IMG_1735.png){.lightbox width="200" group="my-gallery_1"}
-![Mushroom.](/img/drawings/graphite/IMG_7448.jpg){.lightbox width="200" group="my-gallery_1"}
-![Takeaway.](/img/drawings/graphite/IMG_7450.jpg){.lightbox width="200" group="my-gallery_1"}
-![Salt.](/img/drawings/graphite/IMG_7859.jpg){.lightbox width="200" group="my-gallery_1"}
-![Ball in a box.](/img/drawings/graphite/IMG_7860.jpg){.lightbox width="200" group="my-gallery_1"}
-![Flowers.](/img/drawings/graphite/IMG_7861.jpg){.lightbox width="200" group="my-gallery_1"}
-![Dog.](/img/drawings/graphite/IMG_7862.jpg){.lightbox width="200" group="my-gallery_1"}
-![Vase and paer.](/img/drawings/graphite/IMG_7863.jpg){.lightbox width="200" group="my-gallery_1"}
-![Kennisis lake.](/img/drawings/graphite/IMG_7866.jpg){.lightbox width="200" group="my-gallery_1"}
-![Tree.](/img/drawings/graphite/IMG_7884.jpg){.lightbox width="200" group="my-gallery_1"}
-![Winter scenery.](/img/drawings/graphite/IMG_7885.jpg){.lightbox width="200" group="my-gallery_1"}
-![Countryside.](/img/drawings/graphite/IMG_7986.jpg){.lightbox width="200" group="my-gallery_1"}
-![Sail boats.](/img/drawings/graphite/IMG_8165.jpg){.lightbox width="200" group="my-gallery_1"}
-![Path in the woods.](/img/drawings/graphite/Photo_2022-05-28_100018.jpg){.lightbox width="200" group="my-gallery_1"}
-![The warm corner.](/img/drawings/graphite/Photo_2022-05-28_101122.jpg){.lightbox width="200" group="my-gallery_1"}
-![To Paddy's Bay.](/img/drawings/graphite/Photo_2022-05-28_101259.jpg){.lightbox width="200" group="my-gallery_1"}
-![Venice.](/img/drawings/graphite/venice.png){.lightbox width="200" group="my-gallery_1"}
+![Dog.](https://storage.googleapis.com/blogs_josa/creative/drawings/graphite/2022-05-28_100344.jpg){.lightbox width="200" group="my-gallery_1"}
+![Cat.](https://storage.googleapis.com/blogs_josa/creative/drawings/graphite/2022-05-28_100816.jpg){.lightbox width="200" group="my-gallery_1"}
+![Oscar.](https://storage.googleapis.com/blogs_josa/creative/drawings/graphite/Document_2022-05-28_101502.jpg){.lightbox width="200" group="my-gallery_1"}
+![Sofia.](https://storage.googleapis.com/blogs_josa/creative/drawings/graphite/IMG_1735.png){.lightbox width="200" group="my-gallery_1"}
+![Mushroom.](https://storage.googleapis.com/blogs_josa/creative/drawings/graphite/IMG_7448.jpg){.lightbox width="200" group="my-gallery_1"}
+![Takeaway.](https://storage.googleapis.com/blogs_josa/creative/drawings/graphite/IMG_7450.jpg){.lightbox width="200" group="my-gallery_1"}
+![Salt.](https://storage.googleapis.com/blogs_josa/creative/drawings/graphite/IMG_7859.jpg){.lightbox width="200" group="my-gallery_1"}
+![Ball in a box.](https://storage.googleapis.com/blogs_josa/creative/drawings/graphite/IMG_7860.jpg){.lightbox width="200" group="my-gallery_1"}
+![Flowers.](https://storage.googleapis.com/blogs_josa/creative/drawings/graphite/IMG_7861.jpg){.lightbox width="200" group="my-gallery_1"}
+![Dog.](https://storage.googleapis.com/blogs_josa/creative/drawings/graphite/IMG_7862.jpg){.lightbox width="200" group="my-gallery_1"}
+![Vase and paer.](https://storage.googleapis.com/blogs_josa/creative/drawings/graphite/IMG_7863.jpg){.lightbox width="200" group="my-gallery_1"}
+![Kennisis lake.](https://storage.googleapis.com/blogs_josa/creative/drawings/graphite/IMG_7866.jpg){.lightbox width="200" group="my-gallery_1"}
+![Tree.](https://storage.googleapis.com/blogs_josa/creative/drawings/graphite/IMG_7884.jpg){.lightbox width="200" group="my-gallery_1"}
+![Winter scenery.](https://storage.googleapis.com/blogs_josa/creative/drawings/graphite/IMG_7885.jpg){.lightbox width="200" group="my-gallery_1"}
+![Countryside.](https://storage.googleapis.com/blogs_josa/creative/drawings/graphite/IMG_7986.jpg){.lightbox width="200" group="my-gallery_1"}
+![Sail boats.](https://storage.googleapis.com/blogs_josa/creative/drawings/graphite/IMG_8165.jpg){.lightbox width="200" group="my-gallery_1"}
+![Path in the woods.](https://storage.googleapis.com/blogs_josa/creative/drawings/graphite/Photo_2022-05-28_100018.jpg){.lightbox width="200" group="my-gallery_1"}
+![The warm corner.](https://storage.googleapis.com/blogs_josa/creative/drawings/graphite/Photo_2022-05-28_101122.jpg){.lightbox width="200" group="my-gallery_1"}
+![To Paddy's Bay.](https://storage.googleapis.com/blogs_josa/creative/drawings/graphite/Photo_2022-05-28_101259.jpg){.lightbox width="200" group="my-gallery_1"}
+![Venice.](https://storage.googleapis.com/blogs_josa/creative/drawings/graphite/venice.png){.lightbox width="200" group="my-gallery_1"}
 :::

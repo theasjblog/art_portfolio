@@ -3,8 +3,8 @@ title: "Digital"
 ---
 
 :::{.lightbox-gallery}
-![The neighour's cat.](/img/drawings/digital/9AA5AEE3-95BE-4436-854A-75F10E3B6FD6 1.jpg){.lightbox width="200" group="my-gallery_1"}
-![Dog.](/img/drawings/digital/IMG_2493.jpg){.lightbox width="200" group="my-gallery_1"}
-![Lighthouse.](/img/drawings/digital/IMG_2494.jpg){.lightbox width="200" group="my-gallery_1"}
-![Squirrel.](/img/drawings/digital/IMG_2509.jpg){.lightbox width="200" group="my-gallery_1"}
+![The neighour's cat.](https://storage.googleapis.com/blogs_josa/creative/drawings/digital/9AA5AEE3-95BE-4436-854A-75F10E3B6FD6 1.jpg){.lightbox width="200" group="my-gallery_1"}
+![Dog.](https://storage.googleapis.com/blogs_josa/creative/drawings/digital/IMG_2493.jpg){.lightbox width="200" group="my-gallery_1"}
+![Lighthouse.](https://storage.googleapis.com/blogs_josa/creative/drawings/digital/IMG_2494.jpg){.lightbox width="200" group="my-gallery_1"}
+![Squirrel.](https://storage.googleapis.com/blogs_josa/creative/drawings/digital/IMG_2509.jpg){.lightbox width="200" group="my-gallery_1"}
 :::

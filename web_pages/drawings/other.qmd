@@ -3,7 +3,7 @@ title: "Mixed media"
 ---
 
 :::{.lightbox-gallery}
-![The Lion King.](/img/drawings/other/IMG_7440.jpg){.lightbox width="200" group="my-gallery_1"}
-![A bird.](/img/drawings/other/IMG_7442.jpg){.lightbox width="200" group="my-gallery_1"}
-![The neighbour's cat.](/img/drawings/other/IMG_7868.jpg){.lightbox width="200" group="my-gallery_1"}
+![The Lion King.](https://storage.googleapis.com/blogs_josa/creative/drawings/other/IMG_7440.jpg){.lightbox width="200" group="my-gallery_1"}
+![A bird.](https://storage.googleapis.com/blogs_josa/creative/drawings/other/IMG_7442.jpg){.lightbox width="200" group="my-gallery_1"}
+![The neighbour's cat.](https://storage.googleapis.com/blogs_josa/creative/drawings/other/IMG_7868.jpg){.lightbox width="200" group="my-gallery_1"}
 :::

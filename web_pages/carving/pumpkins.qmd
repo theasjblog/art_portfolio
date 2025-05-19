@@ -3,10 +3,14 @@ title: "Pumpkins"
 ---
 
 :::{.lightbox-gallery}
-![2020, the first one. Mine is the one on the left.](/img/carving/pumpkins/2020.png){.lightbox width="200" group="my-gallery_1"}
-![2021. Mine is the one on the chair.](/img/carving/pumpkins/2021.png){.lightbox width="200" group="my-gallery_1"}
-![2022. Mine is the one with the witch.](/img/carving/pumpkins/2022.png){.lightbox width="200" group="my-gallery_1"}
-![2023. Insprired by Edvard Munch's "Scream".](/img/carving/pumpkins/2023.png){.lightbox width="200" group="my-gallery_1"}
-![2024. The graveyard.](/img/carving/pumpkins/2024.png){.lightbox width="200" group="my-gallery_1"}
+![2020, the first one. Mine is the one on the left.](https://storage.googleapis.com/blogs_josa/creative/carving/pumpkin/2020.png){.lightbox width="200" group="my-gallery_1"}
+
+![2021. Mine is the one on the chair.](https://storage.googleapis.com/blogs_josa/creative/carving/pumpkin/2021.png){.lightbox width="200" group="my-gallery_1"}
+
+![2022. Mine is the one with the witch.](https://storage.googleapis.com/blogs_josa/creative/carving/pumpkin/2022.png){.lightbox width="200" group="my-gallery_1"}
+
+![2023. Insprired by Edvard Munch's "Scream".](https://storage.googleapis.com/blogs_josa/creative/carving/pumpkin/2023.png){.lightbox width="200" group="my-gallery_1"}
+
+![2024. The graveyard.](https://storage.googleapis.com/blogs_josa/creative/carving/pumpkin/2024.png){.lightbox width="200" group="my-gallery_1"}
 
 :::

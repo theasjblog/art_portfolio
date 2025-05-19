@@ -3,15 +3,15 @@ title: "Watercolour pencils"
 ---
 
 :::{.lightbox-gallery}
-![Pop corns.](/img/drawings/watercolour/IMG_7408.jpg){.lightbox width="200" group="my-gallery_1"}
-![Farm.](/img/drawings/watercolour/IMG_7416.jpg){.lightbox width="200" group="my-gallery_1"}
-![Lizard.](/img/drawings/watercolour/IMG_7425.jpg){.lightbox width="200" group="my-gallery_1"}
-![English Church.](/img/drawings/watercolour/IMG_7426.jpg){.lightbox width="200" group="my-gallery_1"}
-![Lady.](/img/drawings/watercolour/IMG_7427.jpg){.lightbox width="200" group="my-gallery_1"}
-![Desc](/img/drawings/watercolour/IMG_7432.jpg){.lightbox width="200" group="my-gallery_1"}
-![Puma.](/img/drawings/watercolour/IMG_7436.jpg){.lightbox width="200" group="my-gallery_1"}
-![The stork and the baby.](/img/drawings/watercolour/IMG_7437.jpg){.lightbox width="200" group="my-gallery_1"}
-![Little dog.](/img/drawings/watercolour/IMG_7441.jpg){.lightbox width="200" group="my-gallery_1"}
-![Sea shells.](/img/drawings/watercolour/IMG_7443.jpg){.lightbox width="200" group="my-gallery_1"}
-![Kennisis lake.](/img/drawings/watercolour/IMG_7867.jpg){.lightbox width="200" group="my-gallery_1"}
+![Pop corns.](https://storage.googleapis.com/blogs_josa/creative/drawings/watercolour/IMG_7408.jpg){.lightbox width="200" group="my-gallery_1"}
+![Farm.](https://storage.googleapis.com/blogs_josa/creative/drawings/watercolour/IMG_7416.jpg){.lightbox width="200" group="my-gallery_1"}
+![Lizard.](https://storage.googleapis.com/blogs_josa/creative/drawings/watercolour/IMG_7425.jpg){.lightbox width="200" group="my-gallery_1"}
+![English Church.](https://storage.googleapis.com/blogs_josa/creative/drawings/watercolour/IMG_7426.jpg){.lightbox width="200" group="my-gallery_1"}
+![Lady.](https://storage.googleapis.com/blogs_josa/creative/drawings/watercolour/IMG_7427.jpg){.lightbox width="200" group="my-gallery_1"}
+![Desc](https://storage.googleapis.com/blogs_josa/creative/drawings/watercolour/IMG_7432.jpg){.lightbox width="200" group="my-gallery_1"}
+![Puma.](https://storage.googleapis.com/blogs_josa/creative/drawings/watercolour/IMG_7436.jpg){.lightbox width="200" group="my-gallery_1"}
+![The stork and the baby.](https://storage.googleapis.com/blogs_josa/creative/drawings/watercolour/IMG_7437.jpg){.lightbox width="200" group="my-gallery_1"}
+![Little dog.](https://storage.googleapis.com/blogs_josa/creative/drawings/watercolour/IMG_7441.jpg){.lightbox width="200" group="my-gallery_1"}
+![Sea shells.](https://storage.googleapis.com/blogs_josa/creative/drawings/watercolour/IMG_7443.jpg){.lightbox width="200" group="my-gallery_1"}
+![Kennisis lake.](https://storage.googleapis.com/blogs_josa/creative/drawings/watercolour/IMG_7867.jpg){.lightbox width="200" group="my-gallery_1"}
 :::

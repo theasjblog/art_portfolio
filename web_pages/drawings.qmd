@@ -3,14 +3,14 @@ title: "Drawing galleries"
 ---
 
 ## Graphite
-[![](/img/drawings/graphite/venice.png){width="500"}](drawings/graphite.html)
+![](https://storage.googleapis.com/blogs_josa/creative/drawings/graphite/venice.png){width="500"}](drawings/graphite.html)
 
 ## Watercolour pencils
-[![](/img/drawings/watercolour/IMG_7416.jpg){width="500"}](drawings/watercolour.html)
+![](https://storage.googleapis.com/blogs_josa/creative/drawings/watercolour/IMG_7416.jpg){width="500"}](drawings/watercolour.html)
 
 
 ## Digital Art
-[![](/img/drawings/digital/9AA5AEE3-95BE-4436-854A-75F10E3B6FD6 1.jpg){width="500"}](drawings/digital.html)
+![](https://storage.googleapis.com/blogs_josa/creative/drawings/digital/9AA5AEE3-95BE-4436-854A-75F10E3B6FD6 1.jpg){width="500"}](drawings/digital.html)
 
 # Other media
-[![](/img/drawings/other/IMG_7868.jpg){width="500"}](drawings/other.html)
+![](https://storage.googleapis.com/blogs_josa/creative/drawings/other/IMG_7868.jpg){width="500"}](drawings/other.html)

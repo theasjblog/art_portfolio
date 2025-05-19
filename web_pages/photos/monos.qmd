@@ -3,21 +3,21 @@ title: "Monochromes"
 ---
 
 :::{.lightbox-gallery}
-![Scraps.](/img/photos/monochrome/20180403-IMG_7835.jpg){.lightbox width="200" group="my-gallery_1"}
-![Scraps.](/img/photos/monochrome/20180403-IMG_7858.jpg){.lightbox width="200" group="my-gallery_1"}
-![Moon.](/img/photos/monochrome/DSCN6046_edited.jpg){.lightbox width="200" group="my-gallery_1"}
-![Kennisis lake.](/img/photos/monochrome/IMG_0691.jpg){.lightbox width="200" group="my-gallery_1"}
-![Stump reflection.](/img/photos/monochrome/IMG_0719.jpg){.lightbox width="200" group="my-gallery_1"}
-![The castle.](/img/photos/monochrome/IMG_0796.jpg){.lightbox width="200" group="my-gallery_1"}
-![The nest.](/img/photos/monochrome/IMG_0814.jpg){.lightbox width="200" group="my-gallery_1"}
-![Death.](/img/photos/monochrome/IMG_0908.jpg){.lightbox width="200" group="my-gallery_1"}
-![Toronto baseball stadium.](/img/photos/monochrome/IMG_1168.jpg){.lightbox width="200" group="my-gallery_1"}
-![Rome.](/img/photos/monochrome/IMG_2280.jpg){.lightbox width="200" group="my-gallery_1"}
-![Rome.](/img/photos/monochrome/IMG_2341-HDR.jpg){.lightbox width="200" group="my-gallery_1"}
-![Rome.](/img/photos/monochrome/IMG_2364.jpg){.lightbox width="200" group="my-gallery_1"}
-![Lights.](/img/photos/monochrome/IMG_3121.jpg){.lightbox width="200" group="my-gallery_1"}
-![Tower bridge.](/img/photos/monochrome/IMG_8171.jpg){.lightbox width="200" group="my-gallery_1"}
-![Driving.](/img/photos/monochrome/IMG_8287.jpg){.lightbox width="200" group="my-gallery_1"}
-![Pineapple.](/img/photos/monochrome/IMG_8493-Edit-Edit-Edit.jpg){.lightbox width="200" group="my-gallery_1"}
-![Rock reflection.](/img/photos/monochrome/IMG_9678-HDR.jpg){.lightbox width="200" group="my-gallery_1"}
+![Scraps.](https://storage.googleapis.com/blogs_josa/creative/photos/monochrome/20180403-IMG_7835.jpg){.lightbox width="200" group="my-gallery_1"}
+![Scraps.](https://storage.googleapis.com/blogs_josa/creative/photos/monochrome/20180403-IMG_7858.jpg){.lightbox width="200" group="my-gallery_1"}
+![Moon.](https://storage.googleapis.com/blogs_josa/creative/photos/monochrome/DSCN6046_edited.jpg){.lightbox width="200" group="my-gallery_1"}
+![Kennisis lake.](https://storage.googleapis.com/blogs_josa/creative/photos/monochrome/IMG_0691.jpg){.lightbox width="200" group="my-gallery_1"}
+![Stump reflection.](https://storage.googleapis.com/blogs_josa/creative/photos/monochrome/IMG_0719.jpg){.lightbox width="200" group="my-gallery_1"}
+![The castle.](https://storage.googleapis.com/blogs_josa/creative/photos/monochrome/IMG_0796.jpg){.lightbox width="200" group="my-gallery_1"}
+![The nest.](https://storage.googleapis.com/blogs_josa/creative/photos/monochrome/IMG_0814.jpg){.lightbox width="200" group="my-gallery_1"}
+![Death.](https://storage.googleapis.com/blogs_josa/creative/photos/monochrome/IMG_0908.jpg){.lightbox width="200" group="my-gallery_1"}
+![Toronto baseball stadium.](https://storage.googleapis.com/blogs_josa/creative/photos/monochrome/IMG_1168.jpg){.lightbox width="200" group="my-gallery_1"}
+![Rome.](https://storage.googleapis.com/blogs_josa/creative/photos/monochrome/IMG_2280.jpg){.lightbox width="200" group="my-gallery_1"}
+![Rome.](https://storage.googleapis.com/blogs_josa/creative/photos/monochrome/IMG_2341-HDR.jpg){.lightbox width="200" group="my-gallery_1"}
+![Rome.](https://storage.googleapis.com/blogs_josa/creative/photos/monochrome/IMG_2364.jpg){.lightbox width="200" group="my-gallery_1"}
+![Lights.](https://storage.googleapis.com/blogs_josa/creative/photos/monochrome/IMG_3121.jpg){.lightbox width="200" group="my-gallery_1"}
+![Tower bridge.](https://storage.googleapis.com/blogs_josa/creative/photos/monochrome/IMG_8171.jpg){.lightbox width="200" group="my-gallery_1"}
+![Driving.](https://storage.googleapis.com/blogs_josa/creative/photos/monochrome/IMG_8287.jpg){.lightbox width="200" group="my-gallery_1"}
+![Pineapple.](https://storage.googleapis.com/blogs_josa/creative/photos/monochrome/IMG_8493-Edit-Edit-Edit.jpg){.lightbox width="200" group="my-gallery_1"}
+![Rock reflection.](https://storage.googleapis.com/blogs_josa/creative/photos/monochrome/IMG_9678-HDR.jpg){.lightbox width="200" group="my-gallery_1"}
 :::
