@@ -382,6 +382,14 @@ Important points:
 - `.gitignore` does not exclude `docs/`
 - Quarto renders directly into `docs/`
 
+To publish the site to GitHub Pages, use:
+
+```bash
+quarto publish gh-pages
+```
+
+This project has previously been published via Quarto's `gh-pages` workflow, so this is the command to use when republishing the live site.
+
 ## Notes For Future Maintenance
 
 - Keep route pages simple and clearly named at the repo root.

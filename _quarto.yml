@@ -17,4 +17,5 @@ format:
     theme: cosmo
     css: assets/styles/site.css
     toc: false
+    include-in-header: _generated/site-head.html
     include-before-body: _generated/site-header.html
