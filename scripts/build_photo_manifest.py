@@ -272,6 +272,7 @@ page-layout: full
     <button class="gallery-modal__close" aria-label="Close image viewer">Close</button>
   </form>
   <img id="modal-image" class="gallery-modal__image" alt="{modal_alt}">
+  <div id="modal-copy" class="gallery-modal__copy" hidden><div id="modal-title" class="gallery-modal__title"></div><div id="modal-caption" class="gallery-modal__caption"></div></div>
 </dialog>
 
 <script src="_generated/{manifest_filename}"></script>
@@ -283,17 +284,27 @@ const activeCategory = categories.find((category) => category.slug === categoryS
 const photoGrid = document.getElementById("photo-grid");
 const modal = document.getElementById("gallery-modal");
 const modalImage = document.getElementById("modal-image");
+const modalCopy = document.getElementById("modal-copy");
+const modalTitle = document.getElementById("modal-title");
+const modalCaption = document.getElementById("modal-caption");
 const galleryEmpty = document.getElementById("gallery-empty");
 
 function openPhoto(category, imageData) {{
   modalImage.src = imageData.full;
   modalImage.alt = imageData.title || `${{category.label}} {item_noun}`;
+  modalTitle.textContent = imageData.title || "";
+  modalCaption.textContent = imageData.caption || "";
+  modalCaption.hidden = !imageData.caption;
+  modalCopy.hidden = !imageData.title && !imageData.caption;
   if (typeof modal.showModal === "function") {{
     modal.showModal();
   }}
 }}
 
 (activeCategory?.images ?? []).forEach((imageData) => {{
+  const card = document.createElement("figure");
+  card.className = "photo-card";
+
   const button = document.createElement("button");
   button.type = "button";
   button.className = "photo-thumb";
@@ -306,8 +317,15 @@ function openPhoto(category, imageData) {{
   image.loading = "lazy";
 
   button.append(image);
+  card.append(button);
+
+  const title = document.createElement("figcaption");
+  title.className = "photo-card__title";
+  title.textContent = imageData.caption || "";
+  card.append(title);
+
   button.addEventListener("click", () => openPhoto(activeCategory, imageData));
-  photoGrid.appendChild(button);
+  photoGrid.appendChild(card);
 }});
 
 if (!activeCategory || activeCategory.images.length === 0) {{

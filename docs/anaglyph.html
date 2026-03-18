@@ -153,7 +153,16 @@ No images found for this category.
 Close
 </button>
 </form>
-<p><img id="modal-image" class="gallery-modal__image" alt="Expanded selected photograph"> </p></dialog><p></p>
+<img id="modal-image" class="gallery-modal__image" alt="Expanded selected photograph">
+<div id="modal-copy" class="gallery-modal__copy" hidden="">
+<div id="modal-title" class="gallery-modal__title">
+
+</div>
+<div id="modal-caption" class="gallery-modal__caption">
+
+</div>
+</div>
+<p></p></dialog><p></p>
 <script src="_generated/photo-manifest.js"></script>
 <script>
 const categorySlug = "anaglyph";
@@ -162,17 +171,27 @@ const activeCategory = categories.find((category) => category.slug === categoryS
 const photoGrid = document.getElementById("photo-grid");
 const modal = document.getElementById("gallery-modal");
 const modalImage = document.getElementById("modal-image");
+const modalCopy = document.getElementById("modal-copy");
+const modalTitle = document.getElementById("modal-title");
+const modalCaption = document.getElementById("modal-caption");
 const galleryEmpty = document.getElementById("gallery-empty");
 
 function openPhoto(category, imageData) {
   modalImage.src = imageData.full;
   modalImage.alt = imageData.title || `${category.label} photograph`;
+  modalTitle.textContent = imageData.title || "";
+  modalCaption.textContent = imageData.caption || "";
+  modalCaption.hidden = !imageData.caption;
+  modalCopy.hidden = !imageData.title && !imageData.caption;
   if (typeof modal.showModal === "function") {
     modal.showModal();
   }
 }
 
 (activeCategory?.images ?? []).forEach((imageData) => {
+  const card = document.createElement("figure");
+  card.className = "photo-card";
+
   const button = document.createElement("button");
   button.type = "button";
   button.className = "photo-thumb";
@@ -185,8 +204,15 @@ function openPhoto(category, imageData) {
   image.loading = "lazy";
 
   button.append(image);
+  card.append(button);
+
+  const title = document.createElement("figcaption");
+  title.className = "photo-card__title";
+  title.textContent = imageData.caption || "";
+  card.append(title);
+
   button.addEventListener("click", () => openPhoto(activeCategory, imageData));
-  photoGrid.appendChild(button);
+  photoGrid.appendChild(card);
 });
 
 if (!activeCategory || activeCategory.images.length === 0) {
@@ -296,7 +322,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/theasjblog\.github\.io\/art_portfolio\/");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
