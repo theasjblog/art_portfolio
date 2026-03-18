@@ -1,0 +1,1 @@
+Here I experimented a bit with stuff like "digital" drawing using an app called Sketchbook, and some coloured pencils, and a couple more media.

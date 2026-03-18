@@ -2,13 +2,27 @@
 title: "Welcome!"
 ---
 
-My name is Adrian. I am an amateur photographer and this is my photography portfolio.
+My name is Adrian. This site brings together two parts of my creative work: photography and drawings.
 
 Want a bit more context about me? [Read the About Me page](about.html).
 
 ---
 
-Browse the galleries below to explore the current work.
-
-{{< include _generated/category-cards.qmd >}}
-
+```{=html}
+<div class="medium-grid">
+  <a class="medium-card" href="photography.html" aria-label="Open the Photography section">
+    <img src="https://storage.googleapis.com/blogs_josa/creative/photos/animals/thumbnail/IMG_1786.jpg" alt="Photography section preview" loading="lazy">
+    <div class="medium-card__body">
+      <div class="medium-card__title">Photography</div>
+      <p class="medium-card__copy">Landscapes, animals, city scenes, and experiments with the camera.</p>
+    </div>
+  </a>
+  <a class="medium-card" href="drawings.html" aria-label="Open the Drawings section">
+    <img src="https://storage.googleapis.com/blogs_josa/creative/drawings/graphite/thumbnail/2022-05-28_100344.jpg" alt="Drawings section preview" loading="lazy">
+    <div class="medium-card__body">
+      <div class="medium-card__title">Drawings</div>
+      <p class="medium-card__copy">Graphite sketches, watercolour work, and other drawing-based studies.</p>
+    </div>
+  </a>
+</div>
+```

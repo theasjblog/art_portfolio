@@ -1,0 +1,8 @@
+anaglyph.qmd
+animals.qmd
+cityscapes.qmd
+graphite.qmd
+landscapes.qmd
+others.qmd
+things.qmd
+watercolour.qmd

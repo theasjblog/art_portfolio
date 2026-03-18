@@ -1,24 +1,53 @@
 from __future__ import annotations
 
 import json
-from pathlib import Path
 from html import escape
+from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parent.parent
-DATA_PATH = ROOT / "data" / "galleries.json"
 GALLERY_INTROS_DIR = ROOT / "_content" / "gallery-intros"
-MANIFEST_PATH = ROOT / "_generated" / "photo-manifest.js"
-CATEGORY_CARDS_PATH = ROOT / "_generated" / "category-cards.qmd"
-SITE_HEADER_PATH = ROOT / "_generated" / "site-header.html"
-LEGACY_GALLERY_PAGE_GLOB = "gallery-*.qmd"
+MANAGED_PAGES_PATH = ROOT / "_generated" / "managed-gallery-pages.txt"
+
+COLLECTIONS = [
+    {
+        "key": "photo",
+        "data_path": ROOT / "data" / "galleries.json",
+        "manifest_path": ROOT / "_generated" / "photo-manifest.js",
+        "cards_path": ROOT / "_generated" / "category-cards.qmd",
+        "manifest_var": "photoCategories",
+        "section_slug": "photography",
+        "section_label": "Photography",
+        "page_title_suffix": "Gallery",
+        "gallery_aria_noun": "photo gallery",
+        "item_noun": "photograph",
+        "modal_alt": "Expanded selected photograph",
+        "back_href": "photography.html",
+        "back_label": "Back to Photography",
+    },
+    {
+        "key": "drawing",
+        "data_path": ROOT / "data" / "drawings.json",
+        "manifest_path": ROOT / "_generated" / "drawing-manifest.js",
+        "cards_path": ROOT / "_generated" / "drawing-category-cards.qmd",
+        "manifest_var": "drawingCategories",
+        "section_slug": "drawings",
+        "section_label": "Drawings",
+        "page_title_suffix": "Drawings",
+        "gallery_aria_noun": "drawing gallery",
+        "item_noun": "drawing",
+        "modal_alt": "Expanded selected drawing",
+        "back_href": "drawings.html",
+        "back_label": "Back to Drawings",
+    },
+]
 
 
-def load_galleries() -> list[dict[str, object]]:
-    if not DATA_PATH.exists():
+def load_galleries(data_path: Path) -> list[dict[str, object]]:
+    if not data_path.exists():
         return []
 
-    payload = json.loads(DATA_PATH.read_text(encoding="utf-8"))
+    payload = json.loads(data_path.read_text(encoding="utf-8"))
     galleries = payload.get("galleries", [])
 
     normalized: list[dict[str, object]] = []
@@ -74,12 +103,30 @@ def image_sort_key(image: dict[str, object]) -> tuple[float, str, str, str]:
 
 
 def main() -> None:
-    galleries = load_galleries()
-    payload = json.dumps(galleries, separators=(",", ":"))
-    write_if_changed(MANIFEST_PATH, f"window.photoCategories={payload};\n")
-    write_if_changed(CATEGORY_CARDS_PATH, build_category_cards(galleries))
-    write_if_changed(SITE_HEADER_PATH, build_site_header(galleries))
-    write_category_gallery_pages(galleries)
+    loaded_collections: list[tuple[dict[str, object], list[dict[str, object]]]] = []
+
+    for collection in COLLECTIONS:
+        galleries = load_galleries(collection["data_path"])
+        loaded_collections.append((collection, galleries))
+        payload = json.dumps(galleries, separators=(",", ":"))
+        write_if_changed(
+            collection["manifest_path"],
+            f'window.{collection["manifest_var"]}={payload};\n',
+        )
+        write_if_changed(collection["cards_path"], build_category_cards(galleries))
+
+    photo_categories = next(
+        galleries for collection, galleries in loaded_collections if collection["key"] == "photo"
+    )
+    drawing_categories = next(
+        galleries for collection, galleries in loaded_collections if collection["key"] == "drawing"
+    )
+
+    write_if_changed(SITE_HEADER_PATH, build_site_header(photo_categories, drawing_categories))
+    write_category_gallery_pages(loaded_collections)
+
+
+SITE_HEADER_PATH = ROOT / "_generated" / "site-header.html"
 
 
 def build_category_cards(categories: list[dict[str, object]]) -> str:
@@ -106,7 +153,10 @@ def build_category_cards(categories: list[dict[str, object]]) -> str:
     return "\n".join(fragments) + "\n"
 
 
-def build_site_header(categories: list[dict[str, object]]) -> str:
+def build_site_header(
+    photo_categories: list[dict[str, object]],
+    drawing_categories: list[dict[str, object]],
+) -> str:
     fragments = [
         '<header class="site-header">',
         '  <div class="site-header__inner">',
@@ -114,23 +164,15 @@ def build_site_header(categories: list[dict[str, object]]) -> str:
         '      <img src="assets/images/site/logo.png" alt="" class="site-header__logo">',
         "    </a>",
         '    <nav class="site-header__nav" aria-label="Primary navigation">',
-        '      <a class="site-header__link" href="about.html">About Me</a>',
-        '    <details class="site-menu">',
-        '      <summary class="site-menu__summary">Galleries</summary>',
-        '      <div class="site-menu__panel">',
+        '      <a class="site-header__link" href="index.html">Home</a>',
     ]
 
-    for category in categories:
-        slug = escape(str(category["slug"]))
-        label = escape(str(category["label"]))
-        fragments.append(
-            f'        <a class="site-menu__item" href="{slug}.html">{label}</a>'
-        )
+    fragments.extend(build_nav_menu("Photography", "photography.html", photo_categories))
+    fragments.extend(build_nav_menu("Drawings", "drawings.html", drawing_categories))
+    fragments.append('      <a class="site-header__link" href="about.html">About Me</a>')
 
     fragments.extend(
         [
-            "      </div>",
-            "    </details>",
             "    </nav>",
             "  </div>",
             "</header>",
@@ -140,23 +182,59 @@ def build_site_header(categories: list[dict[str, object]]) -> str:
     return "\n".join(fragments) + "\n"
 
 
-def write_category_gallery_pages(categories: list[dict[str, object]]) -> None:
-    slugs = {str(category["slug"]) for category in categories}
-    managed_files = {f"{slug}.qmd" for slug in slugs}
-    static_pages = {"index.qmd", "about.qmd"}
-
-    for existing_page in ROOT.glob(LEGACY_GALLERY_PAGE_GLOB):
-        existing_page.unlink()
-
-    for existing_page in ROOT.glob("*.qmd"):
-        if existing_page.name not in static_pages and existing_page.name not in managed_files:
-            existing_page.unlink()
+def build_nav_menu(title: str, href: str, categories: list[dict[str, object]]) -> list[str]:
+    fragments = [
+        '      <details class="site-menu">',
+        f'        <summary class="site-menu__summary">{escape(title)}</summary>',
+        '        <div class="site-menu__panel">',
+        f'          <a class="site-menu__item site-menu__item--overview" href="{escape(href)}">{escape(title)} Home</a>',
+    ]
 
     for category in categories:
-        slug = str(category["slug"])
-        label = str(category["label"])
-        page_path = ROOT / f"{slug}.qmd"
-        write_if_changed(page_path, build_gallery_page(slug, label))
+        slug = escape(str(category["slug"]))
+        label = escape(str(category["label"]))
+        fragments.append(f'          <a class="site-menu__item" href="{slug}.html">{label}</a>')
+
+    fragments.extend(
+        [
+            "        </div>",
+            "      </details>",
+        ]
+    )
+    return fragments
+
+
+def write_category_gallery_pages(
+    loaded_collections: list[tuple[dict[str, object], list[dict[str, object]]]]
+) -> None:
+    managed_pages: set[str] = set()
+
+    for collection, categories in loaded_collections:
+        for category in categories:
+            slug = str(category["slug"])
+            label = str(category["label"])
+            page_path = ROOT / f"{slug}.qmd"
+            write_if_changed(page_path, build_gallery_page(slug, label, collection))
+            managed_pages.add(page_path.name)
+
+    previous_pages = read_managed_pages()
+    for stale_page in previous_pages - managed_pages:
+        stale_path = ROOT / stale_page
+        if stale_path.exists():
+            stale_path.unlink()
+
+    managed_listing = "".join(f"{name}\n" for name in sorted(managed_pages))
+    write_if_changed(MANAGED_PAGES_PATH, managed_listing)
+
+
+def read_managed_pages() -> set[str]:
+    if not MANAGED_PAGES_PATH.exists():
+        return set()
+    return {
+        line.strip()
+        for line in MANAGED_PAGES_PATH.read_text(encoding="utf-8").splitlines()
+        if line.strip()
+    }
 
 
 def write_if_changed(path: Path, content: str) -> None:
@@ -165,34 +243,42 @@ def write_if_changed(path: Path, content: str) -> None:
     path.write_text(content, encoding="utf-8")
 
 
-def build_gallery_page(slug: str, label: str) -> str:
+def build_gallery_page(slug: str, label: str, collection: dict[str, object]) -> str:
     safe_label = label.replace('"', '\\"')
-    gallery_intro = build_gallery_intro(slug, label)
+    gallery_intro = build_gallery_intro(slug, label, collection)
+    manifest_filename = Path(str(collection["manifest_path"])).name
+    manifest_var = str(collection["manifest_var"])
+    gallery_aria_noun = str(collection["gallery_aria_noun"])
+    modal_alt = str(collection["modal_alt"])
+    back_href = str(collection["back_href"])
+    back_label = str(collection["back_label"])
+    page_title_suffix = str(collection["page_title_suffix"])
+    item_noun = str(collection["item_noun"])
 
     return f"""---
-title: "{safe_label} Gallery"
+title: "{safe_label} {page_title_suffix}"
 page-layout: full
 ---
 
 {gallery_intro}
 
 ::: {{.gallery-shell}}
-<div id="photo-grid" class="photo-grid" aria-label="{safe_label} photo gallery"></div>
+<div id="photo-grid" class="photo-grid" aria-label="{safe_label} {gallery_aria_noun}"></div>
 <p id="gallery-empty" class="gallery-empty" hidden>No images found for this category.</p>
-<p class="gallery-backlink-wrap"><a class="gallery-toolbar__back" href="index.html">Back to Home</a></p>
+<p class="gallery-backlink-wrap"><a class="gallery-toolbar__back" href="{back_href}">{back_label}</a></p>
 
 <dialog id="gallery-modal" class="gallery-modal">
   <form method="dialog" class="gallery-modal__form">
     <button class="gallery-modal__close" aria-label="Close image viewer">Close</button>
   </form>
-  <img id="modal-image" class="gallery-modal__image" alt="Expanded selected photograph">
+  <img id="modal-image" class="gallery-modal__image" alt="{modal_alt}">
 </dialog>
 
-<script src="_generated/photo-manifest.js"></script>
+<script src="_generated/{manifest_filename}"></script>
 
 <script>
 const categorySlug = "{slug}";
-const categories = window.photoCategories ?? [];
+const categories = window.{manifest_var} ?? [];
 const activeCategory = categories.find((category) => category.slug === categorySlug);
 const photoGrid = document.getElementById("photo-grid");
 const modal = document.getElementById("gallery-modal");
@@ -201,7 +287,7 @@ const galleryEmpty = document.getElementById("gallery-empty");
 
 function openPhoto(category, imageData) {{
   modalImage.src = imageData.full;
-  modalImage.alt = imageData.title || `${{category.label}} photograph`;
+  modalImage.alt = imageData.title || `${{category.label}} {item_noun}`;
   if (typeof modal.showModal === "function") {{
     modal.showModal();
   }}
@@ -238,12 +324,18 @@ modal.addEventListener("click", (event) => {{
 """
 
 
-def build_gallery_intro(slug: str, label: str) -> str:
+def build_gallery_intro(slug: str, label: str, collection: dict[str, object]) -> str:
     intro_path = GALLERY_INTROS_DIR / f"{slug}.md"
     if intro_path.exists():
         include_path = intro_path.relative_to(ROOT).as_posix()
         return f"{{{{< include {include_path} >}}}}"
-    return f'<p class="gallery-description">Click any image to load the larger version from {label}.</p>'
+
+    section_label = str(collection["section_label"])
+    return (
+        '<p class="gallery-description">'
+        f"Click any image to load the larger version from the {escape(label)} {escape(section_label.lower())} collection."
+        "</p>"
+    )
 
 
 if __name__ == "__main__":

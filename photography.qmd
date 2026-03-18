@@ -1,0 +1,9 @@
+---
+title: "Photography"
+---
+
+This section contains the photography side of the portfolio: landscapes, animals, city scenes, experimental work, and other images collected over time.
+
+---
+
+{{< include _generated/category-cards.qmd >}}

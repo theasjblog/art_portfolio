@@ -9,7 +9,7 @@ project:
     - _generated/photo-manifest.js
 
 website:
-  title: "ASJ Photography"
+  title: "ASJ Portfolio"
   favicon: assets/images/site/logo.png
 
 format:

@@ -1,27 +1,27 @@
 ---
-title: "Things Gallery"
+title: "Others Drawings"
 page-layout: full
 ---
 
-{{< include _content/gallery-intros/things.md >}}
+{{< include _content/gallery-intros/others.md >}}
 
 ::: {.gallery-shell}
-<div id="photo-grid" class="photo-grid" aria-label="Things photo gallery"></div>
+<div id="photo-grid" class="photo-grid" aria-label="Others drawing gallery"></div>
 <p id="gallery-empty" class="gallery-empty" hidden>No images found for this category.</p>
-<p class="gallery-backlink-wrap"><a class="gallery-toolbar__back" href="photography.html">Back to Photography</a></p>
+<p class="gallery-backlink-wrap"><a class="gallery-toolbar__back" href="drawings.html">Back to Drawings</a></p>
 
 <dialog id="gallery-modal" class="gallery-modal">
   <form method="dialog" class="gallery-modal__form">
     <button class="gallery-modal__close" aria-label="Close image viewer">Close</button>
   </form>
-  <img id="modal-image" class="gallery-modal__image" alt="Expanded selected photograph">
+  <img id="modal-image" class="gallery-modal__image" alt="Expanded selected drawing">
 </dialog>
 
-<script src="_generated/photo-manifest.js"></script>
+<script src="_generated/drawing-manifest.js"></script>
 
 <script>
-const categorySlug = "things";
-const categories = window.photoCategories ?? [];
+const categorySlug = "others";
+const categories = window.drawingCategories ?? [];
 const activeCategory = categories.find((category) => category.slug === categorySlug);
 const photoGrid = document.getElementById("photo-grid");
 const modal = document.getElementById("gallery-modal");
@@ -30,7 +30,7 @@ const galleryEmpty = document.getElementById("gallery-empty");
 
 function openPhoto(category, imageData) {
   modalImage.src = imageData.full;
-  modalImage.alt = imageData.title || `${category.label} photograph`;
+  modalImage.alt = imageData.title || `${category.label} drawing`;
   if (typeof modal.showModal === "function") {
     modal.showModal();
   }
@@ -41,7 +41,7 @@ function openPhoto(category, imageData) {
   button.type = "button";
   button.className = "photo-thumb";
   button.dataset.full = imageData.full;
-  button.setAttribute("aria-label", imageData.title || "Open image in Things");
+  button.setAttribute("aria-label", imageData.title || "Open image in Others");
 
   const image = document.createElement("img");
   image.src = imageData.thumb;

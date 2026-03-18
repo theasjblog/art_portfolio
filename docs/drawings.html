@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Anaglyph Gallery – ASJ Portfolio</title>
+<title>Drawings – ASJ Portfolio</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -73,16 +73,16 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="assets/styles/site.css">
 </head>
 
-<body>
+<body class="fullcontent">
 
 <div id="quarto-search-results"></div>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 <header class="site-header">
   <div class="site-header__inner">
     <a class="site-header__home" href="index.html" aria-label="Back to home">
@@ -117,12 +117,12 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Anaglyph Gallery</h1>
+<h1 class="title">Drawings</h1>
 </div>
 
 
 
-<div class="quarto-title-meta column-page">
+<div class="quarto-title-meta">
 
     
   
@@ -134,71 +134,27 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>If you are old enough (at least old as me that is), you might remeber the 3D anaglyph effect. This was the protype of much sophisticated 3D effects that came years later. This one is based, in simple terms, on shifting the red and the blue channels a bit (read a more in depth description <a href="https://en.wikipedia.org/wiki/Anaglyph_3D" target="_blank" rel="noopener noreferrer">here</a>).</p>
-<p>To enjoy this gallery you will need a pair of those glasses with the two colour lenses.</p>
-<p><img src="assets/images/site/3D_lenses.png" class="img-fluid" width="260"></p>
-<div class="gallery-shell">
-<div id="photo-grid" class="photo-grid" aria-label="Anaglyph photo gallery">
-
+<p>This section collects the drawing side of the portfolio, including graphite work, watercolour pieces, and a smaller group of experiments in other materials.</p>
+<hr>
+<div class="category-grid">
+<a class="category-card" href="./graphite.html" aria-label="Open Graphite gallery">
+<img src="https://storage.googleapis.com/blogs_josa/creative/drawings/graphite/thumbnail/2022-05-28_100344.jpg" alt="Graphite preview image" loading="lazy">
+<div class="category-card__body">
+<div class="category-card__title">Graphite</div>
 </div>
-<p id="gallery-empty" class="gallery-empty" hidden="">
-No images found for this category.
-</p>
-<p class="gallery-backlink-wrap">
-<a class="gallery-toolbar__back" href="photography.html">Back to Photography</a>
-</p>
-<dialog id="gallery-modal" class="gallery-modal">
-<form method="dialog" class="gallery-modal__form">
-<button class="gallery-modal__close" aria-label="Close image viewer">
-Close
-</button>
-</form>
-<p><img id="modal-image" class="gallery-modal__image" alt="Expanded selected photograph"> </p></dialog><p></p>
-<script src="_generated/photo-manifest.js"></script>
-<script>
-const categorySlug = "anaglyph";
-const categories = window.photoCategories ?? [];
-const activeCategory = categories.find((category) => category.slug === categorySlug);
-const photoGrid = document.getElementById("photo-grid");
-const modal = document.getElementById("gallery-modal");
-const modalImage = document.getElementById("modal-image");
-const galleryEmpty = document.getElementById("gallery-empty");
-
-function openPhoto(category, imageData) {
-  modalImage.src = imageData.full;
-  modalImage.alt = imageData.title || `${category.label} photograph`;
-  if (typeof modal.showModal === "function") {
-    modal.showModal();
-  }
-}
-
-(activeCategory?.images ?? []).forEach((imageData) => {
-  const button = document.createElement("button");
-  button.type = "button";
-  button.className = "photo-thumb";
-  button.dataset.full = imageData.full;
-  button.setAttribute("aria-label", imageData.title || "Open image in Anaglyph");
-
-  const image = document.createElement("img");
-  image.src = imageData.thumb;
-  image.alt = imageData.title || `${activeCategory.label} thumbnail`;
-  image.loading = "lazy";
-
-  button.append(image);
-  button.addEventListener("click", () => openPhoto(activeCategory, imageData));
-  photoGrid.appendChild(button);
-});
-
-if (!activeCategory || activeCategory.images.length === 0) {
-  galleryEmpty.hidden = false;
-}
-
-modal.addEventListener("click", (event) => {
-  if (event.target === modal) {
-    modal.close();
-  }
-});
-</script>
+</a>
+<a class="category-card" href="./watercolour.html" aria-label="Open Watercolour gallery">
+<img src="https://storage.googleapis.com/blogs_josa/creative/drawings/watercolour/thumbnail/IMG_7408.jpg" alt="Watercolour preview image" loading="lazy">
+<div class="category-card__body">
+<div class="category-card__title">Watercolour</div>
+</div>
+</a>
+<a class="category-card" href="./others.html" aria-label="Open Others gallery">
+<img src="https://storage.googleapis.com/blogs_josa/creative/drawings/others/thumbnail/9AA5AEE3-95BE-4436-854A-75F10E3B6FD6 1.jpg" alt="Others preview image" loading="lazy">
+<div class="category-card__body">
+<div class="category-card__title">Others</div>
+</div>
+</a>
 </div>
 
 

@@ -1,0 +1,22 @@
+```{=html}
+<div class="category-grid">
+<a class="category-card" href="./graphite.html" aria-label="Open Graphite gallery">
+<img src="https://storage.googleapis.com/blogs_josa/creative/drawings/graphite/thumbnail/2022-05-28_100344.jpg" alt="Graphite preview image" loading="lazy">
+<div class="category-card__body">
+<div class="category-card__title">Graphite</div>
+</div>
+</a>
+<a class="category-card" href="./watercolour.html" aria-label="Open Watercolour gallery">
+<img src="https://storage.googleapis.com/blogs_josa/creative/drawings/watercolour/thumbnail/IMG_7408.jpg" alt="Watercolour preview image" loading="lazy">
+<div class="category-card__body">
+<div class="category-card__title">Watercolour</div>
+</div>
+</a>
+<a class="category-card" href="./others.html" aria-label="Open Others gallery">
+<img src="https://storage.googleapis.com/blogs_josa/creative/drawings/others/thumbnail/9AA5AEE3-95BE-4436-854A-75F10E3B6FD6 1.jpg" alt="Others preview image" loading="lazy">
+<div class="category-card__body">
+<div class="category-card__title">Others</div>
+</div>
+</a>
+</div>
+```

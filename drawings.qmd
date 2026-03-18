@@ -1,0 +1,9 @@
+---
+title: "Drawings"
+---
+
+This section collects the drawing side of the portfolio, including graphite work, watercolour pieces, and a smaller group of experiments in other materials.
+
+---
+
+{{< include _generated/drawing-category-cards.qmd >}}
