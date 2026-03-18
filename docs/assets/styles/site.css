@@ -357,6 +357,10 @@ body {
   overflow: auto;
 }
 
+.gallery-modal:not([open]) {
+  display: none;
+}
+
 .gallery-modal::backdrop {
   background: rgba(0, 0, 0, 0.82);
 }
