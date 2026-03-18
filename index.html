@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Welcome! – ASJ Photography</title>
+<title>Welcome! – ASJ Portfolio</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -67,7 +67,7 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <link rel="apple-touch-icon" href="assets/images/site/logo.png">
-<meta name="apple-mobile-web-app-title" content="ASJ Photography">
+<meta name="apple-mobile-web-app-title" content="ASJ Portfolio">
 
 
 <link rel="stylesheet" href="assets/styles/site.css">
@@ -89,17 +89,28 @@ ul.task-list li input[type="checkbox"] {
       <img src="assets/images/site/logo.png" alt="" class="site-header__logo">
     </a>
     <nav class="site-header__nav" aria-label="Primary navigation">
+      <a class="site-header__link" href="index.html">Home</a>
+      <details class="site-menu">
+        <summary class="site-menu__summary">Photography</summary>
+        <div class="site-menu__panel">
+          <a class="site-menu__item site-menu__item--overview" href="photography.html">Photography Home</a>
+          <a class="site-menu__item" href="animals.html">Animals</a>
+          <a class="site-menu__item" href="landscapes.html">Landscapes</a>
+          <a class="site-menu__item" href="cityscapes.html">Cityscapes</a>
+          <a class="site-menu__item" href="things.html">Things</a>
+          <a class="site-menu__item" href="anaglyph.html">Anaglyph</a>
+        </div>
+      </details>
+      <details class="site-menu">
+        <summary class="site-menu__summary">Drawings</summary>
+        <div class="site-menu__panel">
+          <a class="site-menu__item site-menu__item--overview" href="drawings.html">Drawings Home</a>
+          <a class="site-menu__item" href="graphite.html">Graphite</a>
+          <a class="site-menu__item" href="watercolour.html">Watercolour</a>
+          <a class="site-menu__item" href="others.html">Others</a>
+        </div>
+      </details>
       <a class="site-header__link" href="about.html">About Me</a>
-    <details class="site-menu">
-      <summary class="site-menu__summary">Galleries</summary>
-      <div class="site-menu__panel">
-        <a class="site-menu__item" href="animals.html">Animals</a>
-        <a class="site-menu__item" href="landscapes.html">Landscapes</a>
-        <a class="site-menu__item" href="cityscapes.html">Cityscapes</a>
-        <a class="site-menu__item" href="things.html">Things</a>
-        <a class="site-menu__item" href="anaglyph.html">Anaglyph</a>
-      </div>
-    </details>
     </nav>
   </div>
 </header>
@@ -123,41 +134,24 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>My name is Adrian. I am an amateur photographer and this is my photography portfolio.</p>
+<p>My name is Adrian. This site brings together two parts of my creative work: photography and drawings.</p>
 <p>Want a bit more context about me? <a href="about.html">Read the About Me page</a>.</p>
 <hr>
-<p>Browse the galleries below to explore the current work.</p>
-<div class="category-grid">
-<a class="category-card" href="./animals.html" aria-label="Open Animals gallery">
-<img src="https://storage.googleapis.com/blogs_josa/creative/photos/animals/thumbnail/IMG_1786.jpg" alt="Animals preview image" loading="lazy">
-<div class="category-card__body">
-<div class="category-card__title">Animals</div>
-</div>
-</a>
-<a class="category-card" href="./landscapes.html" aria-label="Open Landscapes gallery">
-<img src="https://storage.googleapis.com/blogs_josa/creative/photos/landscapes/thumbnail/IMG_5847.jpg" alt="Landscapes preview image" loading="lazy">
-<div class="category-card__body">
-<div class="category-card__title">Landscapes</div>
-</div>
-</a>
-<a class="category-card" href="./cityscapes.html" aria-label="Open Cityscapes gallery">
-<img src="https://storage.googleapis.com/blogs_josa/creative/photos/cityscapes/thumbnail/IMG_0422.jpg" alt="Cityscapes preview image" loading="lazy">
-<div class="category-card__body">
-<div class="category-card__title">Cityscapes</div>
-</div>
-</a>
-<a class="category-card" href="./things.html" aria-label="Open Things gallery">
-<img src="https://storage.googleapis.com/blogs_josa/creative/photos/things/thumbnail/IMG_4811.jpg" alt="Things preview image" loading="lazy">
-<div class="category-card__body">
-<div class="category-card__title">Things</div>
-</div>
-</a>
-<a class="category-card" href="./anaglyph.html" aria-label="Open Anaglyph gallery">
-<img src="https://storage.googleapis.com/blogs_josa/creative/photos/anaglyph/thumbnail/squirrel_done.jpg" alt="Anaglyph preview image" loading="lazy">
-<div class="category-card__body">
-<div class="category-card__title">Anaglyph</div>
-</div>
-</a>
+<div class="medium-grid">
+  <a class="medium-card" href="photography.html" aria-label="Open the Photography section">
+    <img src="https://storage.googleapis.com/blogs_josa/creative/photos/animals/thumbnail/IMG_1786.jpg" alt="Photography section preview" loading="lazy">
+    <div class="medium-card__body">
+      <div class="medium-card__title">Photography</div>
+      <p class="medium-card__copy">Landscapes, animals, city scenes, and experiments with the camera.</p>
+    </div>
+  </a>
+  <a class="medium-card" href="drawings.html" aria-label="Open the Drawings section">
+    <img src="https://storage.googleapis.com/blogs_josa/creative/drawings/graphite/thumbnail/2022-05-28_100344.jpg" alt="Drawings section preview" loading="lazy">
+    <div class="medium-card__body">
+      <div class="medium-card__title">Drawings</div>
+      <p class="medium-card__copy">Graphite sketches, watercolour work, and other drawing-based studies.</p>
+    </div>
+  </a>
 </div>
 
 

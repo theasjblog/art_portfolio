@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Things Gallery – ASJ Portfolio</title>
+<title>Photography – ASJ Portfolio</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -73,16 +73,16 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="assets/styles/site.css">
 </head>
 
-<body>
+<body class="fullcontent">
 
 <div id="quarto-search-results"></div>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 <header class="site-header">
   <div class="site-header__inner">
     <a class="site-header__home" href="index.html" aria-label="Back to home">
@@ -117,12 +117,12 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Things Gallery</h1>
+<h1 class="title">Photography</h1>
 </div>
 
 
 
-<div class="quarto-title-meta column-page">
+<div class="quarto-title-meta">
 
     
   
@@ -134,69 +134,39 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>This gallery is a collection of things I did not know where to fit anywhere else. A few macro shots. A few high speed photography shots. Some close ups of trees (I love the texture in trunks). Moslty “let’s see if this works” experiments.</p>
-<div class="gallery-shell">
-<div id="photo-grid" class="photo-grid" aria-label="Things photo gallery">
-
+<p>This section contains the photography side of the portfolio: landscapes, animals, city scenes, experimental work, and other images collected over time.</p>
+<hr>
+<div class="category-grid">
+<a class="category-card" href="./animals.html" aria-label="Open Animals gallery">
+<img src="https://storage.googleapis.com/blogs_josa/creative/photos/animals/thumbnail/IMG_1786.jpg" alt="Animals preview image" loading="lazy">
+<div class="category-card__body">
+<div class="category-card__title">Animals</div>
 </div>
-<p id="gallery-empty" class="gallery-empty" hidden="">
-No images found for this category.
-</p>
-<p class="gallery-backlink-wrap">
-<a class="gallery-toolbar__back" href="photography.html">Back to Photography</a>
-</p>
-<dialog id="gallery-modal" class="gallery-modal">
-<form method="dialog" class="gallery-modal__form">
-<button class="gallery-modal__close" aria-label="Close image viewer">
-Close
-</button>
-</form>
-<p><img id="modal-image" class="gallery-modal__image" alt="Expanded selected photograph"> </p></dialog><p></p>
-<script src="_generated/photo-manifest.js"></script>
-<script>
-const categorySlug = "things";
-const categories = window.photoCategories ?? [];
-const activeCategory = categories.find((category) => category.slug === categorySlug);
-const photoGrid = document.getElementById("photo-grid");
-const modal = document.getElementById("gallery-modal");
-const modalImage = document.getElementById("modal-image");
-const galleryEmpty = document.getElementById("gallery-empty");
-
-function openPhoto(category, imageData) {
-  modalImage.src = imageData.full;
-  modalImage.alt = imageData.title || `${category.label} photograph`;
-  if (typeof modal.showModal === "function") {
-    modal.showModal();
-  }
-}
-
-(activeCategory?.images ?? []).forEach((imageData) => {
-  const button = document.createElement("button");
-  button.type = "button";
-  button.className = "photo-thumb";
-  button.dataset.full = imageData.full;
-  button.setAttribute("aria-label", imageData.title || "Open image in Things");
-
-  const image = document.createElement("img");
-  image.src = imageData.thumb;
-  image.alt = imageData.title || `${activeCategory.label} thumbnail`;
-  image.loading = "lazy";
-
-  button.append(image);
-  button.addEventListener("click", () => openPhoto(activeCategory, imageData));
-  photoGrid.appendChild(button);
-});
-
-if (!activeCategory || activeCategory.images.length === 0) {
-  galleryEmpty.hidden = false;
-}
-
-modal.addEventListener("click", (event) => {
-  if (event.target === modal) {
-    modal.close();
-  }
-});
-</script>
+</a>
+<a class="category-card" href="./landscapes.html" aria-label="Open Landscapes gallery">
+<img src="https://storage.googleapis.com/blogs_josa/creative/photos/landscapes/thumbnail/IMG_5847.jpg" alt="Landscapes preview image" loading="lazy">
+<div class="category-card__body">
+<div class="category-card__title">Landscapes</div>
+</div>
+</a>
+<a class="category-card" href="./cityscapes.html" aria-label="Open Cityscapes gallery">
+<img src="https://storage.googleapis.com/blogs_josa/creative/photos/cityscapes/thumbnail/IMG_0422.jpg" alt="Cityscapes preview image" loading="lazy">
+<div class="category-card__body">
+<div class="category-card__title">Cityscapes</div>
+</div>
+</a>
+<a class="category-card" href="./things.html" aria-label="Open Things gallery">
+<img src="https://storage.googleapis.com/blogs_josa/creative/photos/things/thumbnail/IMG_4811.jpg" alt="Things preview image" loading="lazy">
+<div class="category-card__body">
+<div class="category-card__title">Things</div>
+</div>
+</a>
+<a class="category-card" href="./anaglyph.html" aria-label="Open Anaglyph gallery">
+<img src="https://storage.googleapis.com/blogs_josa/creative/photos/anaglyph/thumbnail/squirrel_done.jpg" alt="Anaglyph preview image" loading="lazy">
+<div class="category-card__body">
+<div class="category-card__title">Anaglyph</div>
+</div>
+</a>
 </div>
 
 
