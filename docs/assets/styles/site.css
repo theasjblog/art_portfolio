@@ -149,10 +149,9 @@ body {
 }
 
 .about-section {
-  display: grid;
-  grid-template-columns: minmax(220px, 320px) 1fr;
-  gap: 1.5rem;
-  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
   margin: 1.5rem 0 2.5rem;
   padding: 1.25rem;
   border: 1px solid var(--gallery-border);
@@ -164,11 +163,13 @@ body {
 .about-section__image {
   display: block;
   width: 100%;
+  max-width: 320px;
+  margin: 0 auto;
   border: 4px solid var(--gallery-frame);
   border-radius: 1rem;
 }
 
-.about-section__copy p:last-child {
+.about-section > :last-child {
   margin-bottom: 0;
 }
 
@@ -316,10 +317,6 @@ body {
 @media (max-width: 900px) {
   .site-header {
     margin: -1rem -1rem 1.5rem;
-  }
-
-  .about-section {
-    grid-template-columns: 1fr;
   }
 
   .gallery-toolbar {
