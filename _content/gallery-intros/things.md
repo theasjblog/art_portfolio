@@ -1,0 +1,1 @@
+This gallery is a collection of things I did not know where to fit anywhere else. A few macro shots. A few high speed photography shots. Some close ups of trees (I love the texture in trunks). Moslty "let's see if this works" experiments.

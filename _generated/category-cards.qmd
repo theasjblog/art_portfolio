@@ -1,0 +1,34 @@
+```{=html}
+<div class="category-grid">
+<a class="category-card" href="./animals.html" aria-label="Open Animals gallery">
+<img src="https://storage.googleapis.com/blogs_josa/creative/photos/animals/thumbnail/IMG_1786.jpg" alt="Animals preview image" loading="lazy">
+<div class="category-card__body">
+<div class="category-card__title">Animals</div>
+</div>
+</a>
+<a class="category-card" href="./landscapes.html" aria-label="Open Landscapes gallery">
+<img src="https://storage.googleapis.com/blogs_josa/creative/photos/landscapes/thumbnail/IMG_5847.jpg" alt="Landscapes preview image" loading="lazy">
+<div class="category-card__body">
+<div class="category-card__title">Landscapes</div>
+</div>
+</a>
+<a class="category-card" href="./cityscapes.html" aria-label="Open Cityscapes gallery">
+<img src="https://storage.googleapis.com/blogs_josa/creative/photos/cityscapes/thumbnail/IMG_0422.jpg" alt="Cityscapes preview image" loading="lazy">
+<div class="category-card__body">
+<div class="category-card__title">Cityscapes</div>
+</div>
+</a>
+<a class="category-card" href="./things.html" aria-label="Open Things gallery">
+<img src="https://storage.googleapis.com/blogs_josa/creative/photos/things/thumbnail/IMG_4811.jpg" alt="Things preview image" loading="lazy">
+<div class="category-card__body">
+<div class="category-card__title">Things</div>
+</div>
+</a>
+<a class="category-card" href="./anaglyph.html" aria-label="Open Anaglyph gallery">
+<img src="https://storage.googleapis.com/blogs_josa/creative/photos/anaglyph/thumbnail/squirrel_done.jpg" alt="Anaglyph preview image" loading="lazy">
+<div class="category-card__body">
+<div class="category-card__title">Anaglyph</div>
+</div>
+</a>
+</div>
+```
