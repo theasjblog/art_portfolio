@@ -149,6 +149,14 @@ No images found for this category.
 </p>
 <dialog id="gallery-modal" class="gallery-modal">
 <form method="dialog" class="gallery-modal__form">
+<div class="gallery-modal__controls" aria-label="Image navigation">
+<button type="button" class="gallery-modal__nav" data-direction="prev" aria-label="Show previous image">
+‹
+</button>
+<button type="button" class="gallery-modal__nav" data-direction="next" aria-label="Show next image">
+›
+</button>
+</div>
 <button class="gallery-modal__close" aria-label="Close image viewer">
 Close
 </button>
@@ -175,17 +183,43 @@ const modalCopy = document.getElementById("modal-copy");
 const modalTitle = document.getElementById("modal-title");
 const modalCaption = document.getElementById("modal-caption");
 const galleryEmpty = document.getElementById("gallery-empty");
+const modalPrevButton = modal.querySelector('[data-direction="prev"]');
+const modalNextButton = modal.querySelector('[data-direction="next"]');
+let currentImageIndex = -1;
+
+function updateModalNavigation(category) {
+  const imageCount = category?.images?.length ?? 0;
+  const hasMultipleImages = imageCount > 1;
+  modalPrevButton.disabled = !hasMultipleImages || currentImageIndex <= 0;
+  modalNextButton.disabled = !hasMultipleImages || currentImageIndex >= imageCount - 1;
+}
 
 function openPhoto(category, imageData) {
+  currentImageIndex = category.images.findIndex((entry) => entry.full === imageData.full);
   modalImage.src = imageData.full;
   modalImage.alt = imageData.title || `${category.label} photograph`;
   modalTitle.textContent = imageData.title || "";
   modalCaption.textContent = imageData.caption || "";
   modalCaption.hidden = !imageData.caption;
   modalCopy.hidden = !imageData.title && !imageData.caption;
+  updateModalNavigation(category);
   if (typeof modal.showModal === "function") {
     modal.showModal();
   }
+}
+
+function showAdjacentPhoto(step) {
+  if (!activeCategory || currentImageIndex < 0) {
+    return;
+  }
+
+  const nextIndex = currentImageIndex + step;
+  const nextImage = activeCategory.images[nextIndex];
+  if (!nextImage) {
+    return;
+  }
+
+  openPhoto(activeCategory, nextImage);
 }
 
 (activeCategory?.images ?? []).forEach((imageData) => {
@@ -223,6 +257,13 @@ modal.addEventListener("click", (event) => {
   if (event.target === modal) {
     modal.close();
   }
+});
+
+modalPrevButton.addEventListener("click", () => showAdjacentPhoto(-1));
+modalNextButton.addEventListener("click", () => showAdjacentPhoto(1));
+
+modal.addEventListener("close", () => {
+  currentImageIndex = -1;
 });
 </script>
 </div>
