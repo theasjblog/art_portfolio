@@ -368,15 +368,38 @@ body {
 .gallery-modal__form {
   display: flex;
   justify-content: flex-end;
+  align-items: center;
+  gap: 0.55rem;
   margin-bottom: 0.75rem;
 }
 
+.gallery-modal__controls {
+  display: flex;
+  gap: 0.45rem;
+}
+
+.gallery-modal__nav,
 .gallery-modal__close {
   border: 1px solid rgba(255, 255, 255, 0.25);
   border-radius: 999px;
-  padding: 0.4rem 0.9rem;
   background: transparent;
   color: #fff;
+}
+
+.gallery-modal__nav {
+  min-width: 2.5rem;
+  padding: 0.35rem 0.75rem;
+  font-size: 1.35rem;
+  line-height: 1;
+}
+
+.gallery-modal__close {
+  padding: 0.4rem 0.9rem;
+}
+
+.gallery-modal__nav:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
 }
 
 .gallery-modal__image {
