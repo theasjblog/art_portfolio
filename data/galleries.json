@@ -41,123 +41,74 @@
           "order": 5
         },
         {
-          "thumb": "https://storage.googleapis.com/blogs_josa/creative/photos/anaglyph/thumbnail/alexandra_done.jpg",
-          "full": "https://storage.googleapis.com/blogs_josa/creative/photos/anaglyph/full/alexandra_done.jpg",
-          "title": "alexandra done",
-          "caption": "",
-          "order": 6
-        },
-        {
-          "thumb": "https://storage.googleapis.com/blogs_josa/creative/photos/anaglyph/thumbnail/boat_done.jpg",
-          "full": "https://storage.googleapis.com/blogs_josa/creative/photos/anaglyph/full/boat_done.jpg",
-          "title": "boat done",
-          "caption": "",
-          "order": 7
-        },
-        {
-          "thumb": "https://storage.googleapis.com/blogs_josa/creative/photos/anaglyph/thumbnail/butterfly_done.jpg",
-          "full": "https://storage.googleapis.com/blogs_josa/creative/photos/anaglyph/full/butterfly_done.jpg",
-          "title": "butterfly done",
-          "caption": "",
-          "order": 8
-        },
-        {
           "thumb": "https://storage.googleapis.com/blogs_josa/creative/photos/anaglyph/thumbnail/cat_done.jpg",
           "full": "https://storage.googleapis.com/blogs_josa/creative/photos/anaglyph/full/cat_done.jpg",
           "title": "cat done",
           "caption": "",
-          "order": 9
+          "order": 6
         },
         {
           "thumb": "https://storage.googleapis.com/blogs_josa/creative/photos/anaglyph/thumbnail/deer_done.jpg",
           "full": "https://storage.googleapis.com/blogs_josa/creative/photos/anaglyph/full/deer_done.jpg",
           "title": "deer done",
           "caption": "",
-          "order": 10
-        },
-        {
-          "thumb": "https://storage.googleapis.com/blogs_josa/creative/photos/anaglyph/thumbnail/driving_done.jpg",
-          "full": "https://storage.googleapis.com/blogs_josa/creative/photos/anaglyph/full/driving_done.jpg",
-          "title": "driving done",
-          "caption": "",
-          "order": 11
-        },
-        {
-          "thumb": "https://storage.googleapis.com/blogs_josa/creative/photos/anaglyph/thumbnail/frog_done.jpg",
-          "full": "https://storage.googleapis.com/blogs_josa/creative/photos/anaglyph/full/frog_done.jpg",
-          "title": "frog done",
-          "caption": "",
-          "order": 12
+          "order": 7
         },
         {
           "thumb": "https://storage.googleapis.com/blogs_josa/creative/photos/anaglyph/thumbnail/guy_done.jpg",
           "full": "https://storage.googleapis.com/blogs_josa/creative/photos/anaglyph/full/guy_done.jpg",
           "title": "guy done",
           "caption": "",
-          "order": 13
+          "order": 9
         },
         {
           "thumb": "https://storage.googleapis.com/blogs_josa/creative/photos/anaglyph/thumbnail/harps_done.jpg",
           "full": "https://storage.googleapis.com/blogs_josa/creative/photos/anaglyph/full/harps_done.jpg",
           "title": "harps done",
           "caption": "",
-          "order": 14
-        },
-        {
-          "thumb": "https://storage.googleapis.com/blogs_josa/creative/photos/anaglyph/thumbnail/interior_done.jpg",
-          "full": "https://storage.googleapis.com/blogs_josa/creative/photos/anaglyph/full/interior_done.jpg",
-          "title": "interior done",
-          "caption": "",
-          "order": 15
+          "order": 10
         },
         {
           "thumb": "https://storage.googleapis.com/blogs_josa/creative/photos/anaglyph/thumbnail/kayak_done.jpg",
           "full": "https://storage.googleapis.com/blogs_josa/creative/photos/anaglyph/full/kayak_done.jpg",
           "title": "kayak done",
           "caption": "",
-          "order": 16
+          "order": 11
         },
         {
           "thumb": "https://storage.googleapis.com/blogs_josa/creative/photos/anaglyph/thumbnail/london_done.jpg",
           "full": "https://storage.googleapis.com/blogs_josa/creative/photos/anaglyph/full/london_done.jpg",
           "title": "london done",
           "caption": "",
-          "order": 17
+          "order": 12
         },
         {
           "thumb": "https://storage.googleapis.com/blogs_josa/creative/photos/anaglyph/thumbnail/monk_done.jpg",
           "full": "https://storage.googleapis.com/blogs_josa/creative/photos/anaglyph/full/monk_done.jpg",
           "title": "monk done",
           "caption": "",
-          "order": 18
-        },
-        {
-          "thumb": "https://storage.googleapis.com/blogs_josa/creative/photos/anaglyph/thumbnail/snail00_done.jpg",
-          "full": "https://storage.googleapis.com/blogs_josa/creative/photos/anaglyph/full/snail00_done.jpg",
-          "title": "snail00 done",
-          "caption": "",
-          "order": 19
+          "order": 13
         },
         {
           "thumb": "https://storage.googleapis.com/blogs_josa/creative/photos/anaglyph/thumbnail/snail_done.jpg",
           "full": "https://storage.googleapis.com/blogs_josa/creative/photos/anaglyph/full/snail_done.jpg",
           "title": "snail done",
           "caption": "",
-          "order": 20
+          "order": 15
         },
         {
           "thumb": "https://storage.googleapis.com/blogs_josa/creative/photos/anaglyph/thumbnail/squirrel_done.jpg",
           "full": "https://storage.googleapis.com/blogs_josa/creative/photos/anaglyph/full/squirrel_done.jpg",
           "title": "squirrel done",
           "caption": "",
-          "order": 21
+          "order": 16
         },
         {
           "thumb": "https://storage.googleapis.com/blogs_josa/creative/photos/anaglyph/thumbnail/us_done.jpg",
           "full": "https://storage.googleapis.com/blogs_josa/creative/photos/anaglyph/full/us_done.jpg",
           "title": "us done",
           "caption": "",
-          "order": 22
+          "order": 17
         }
       ],
       "order": 5
