@@ -1,3 +1,3 @@
 I have always loved animals. Since getting a camera, I have taken countless pictures of every creature I come across. I must have thousands of squirrel photos on my hard drive alone...
 
-It is always hard to try to keep this gallery to a reasonable side, discarding images that might be fun, but technically not that good. Here is my "best of" selection.
+It is always hard to try to keep this gallery to a reasonable size, discarding images that might be fun, but technically not that good. Here is my "best of" selection.

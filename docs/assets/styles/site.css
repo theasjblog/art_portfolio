@@ -50,9 +50,13 @@ body {
 }
 
 .site-header__link {
+  display: inline-flex;
+  align-items: center;
   color: #111111;
   text-decoration: none;
   font-weight: 700;
+  min-height: 2.25rem;
+  line-height: 1;
 }
 
 .site-header__link:hover,
@@ -75,10 +79,14 @@ body {
 }
 
 .site-menu__summary {
+  display: inline-flex;
+  align-items: center;
   list-style: none;
   cursor: pointer;
   color: #111111;
   font-weight: 700;
+  min-height: 2.25rem;
+  line-height: 1;
 }
 
 .site-menu__summary::-webkit-details-marker {
