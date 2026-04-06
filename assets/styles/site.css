@@ -353,7 +353,8 @@ body {
 }
 
 .gallery-modal {
-  position: relative;
+  position: fixed;
+  inset: 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -361,10 +362,12 @@ body {
   max-width: 96vw;
   height: min(96vh, 1280px);
   max-height: 96vh;
+  margin: auto;
   padding: 0;
   border: none;
   background: transparent;
-  overflow: visible;
+  overflow: hidden;
+  overscroll-behavior: contain;
 }
 
 .gallery-modal:not([open]) {
