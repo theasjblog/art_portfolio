@@ -195,6 +195,94 @@ body {
   margin-top: 2rem;
 }
 
+.home-carousel {
+  margin: 1.5rem 0 2.25rem;
+}
+
+.home-carousel__viewport {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid var(--gallery-border);
+  border-radius: 1.5rem;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.03)),
+    var(--gallery-surface);
+  box-shadow: var(--gallery-shadow);
+}
+
+.home-carousel__track {
+  display: flex;
+  transition: transform 380ms ease;
+  will-change: transform;
+}
+
+.home-carousel__slide {
+  flex: 0 0 100%;
+  margin: 0;
+}
+
+.home-carousel__image {
+  display: block;
+  width: 100%;
+  height: min(68vh, 38rem);
+  object-fit: cover;
+}
+
+.home-carousel__control {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 3rem;
+  height: 3rem;
+  border: 0;
+  border-radius: 999px;
+  background: rgba(5, 5, 5, 0.62);
+  color: var(--gallery-ink);
+  font-size: 1.8rem;
+  line-height: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 160ms ease;
+}
+
+.home-carousel__control:hover,
+.home-carousel__control:focus-visible {
+  background: rgba(5, 5, 5, 0.82);
+}
+
+.home-carousel__control--prev {
+  left: 1rem;
+}
+
+.home-carousel__control--next {
+  right: 1rem;
+}
+
+.home-carousel__dots {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.45rem;
+  width: 100%;
+  margin-top: 0.9rem;
+}
+
+.home-carousel__dot {
+  width: 0.8rem;
+  height: 0.8rem;
+  padding: 0;
+  border: 0;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.26);
+  cursor: pointer;
+}
+
+.home-carousel__dot[aria-current="true"] {
+  background: var(--gallery-accent);
+}
+
 .medium-card {
   display: block;
   color: inherit;
@@ -305,7 +393,7 @@ body {
 
 .photo-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 1rem;
 }
 
@@ -323,6 +411,7 @@ body {
   overflow: hidden;
   box-shadow: var(--gallery-shadow);
   cursor: pointer;
+  aspect-ratio: 4 / 3;
   transition: transform 160ms ease, border-color 160ms ease;
 }
 
@@ -340,7 +429,8 @@ body {
 
 .photo-thumb img {
   width: 100%;
-  height: auto;
+  height: 100%;
+  object-fit: cover;
   border: 4px solid var(--gallery-frame);
 }
 
@@ -446,6 +536,23 @@ body {
 @media (max-width: 900px) {
   .site-header {
     margin: -1rem -1rem 1.5rem;
+  }
+
+  .home-carousel__image {
+    height: 15rem;
+  }
+
+  .home-carousel__control {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  .home-carousel__control--prev {
+    left: 0.6rem;
+  }
+
+  .home-carousel__control--next {
+    right: 0.6rem;
   }
 
   .gallery-toolbar {

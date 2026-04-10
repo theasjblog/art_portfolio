@@ -137,6 +137,120 @@ ul.task-list li input[type="checkbox"] {
 <p>My name is Adrian. This site brings together two parts of my creative work: photography and drawings.</p>
 <p>Want a bit more context about me? <a href="about.html">Read the About Me page</a>.</p>
 <hr>
+<section class="home-carousel" aria-label="Selected photography highlights">
+  <div class="home-carousel__viewport">
+    <div class="home-carousel__track" id="home-carousel-track"></div>
+    <button type="button" class="home-carousel__control home-carousel__control--prev" id="home-carousel-prev" aria-label="Show previous featured image">‹</button>
+    <button type="button" class="home-carousel__control home-carousel__control--next" id="home-carousel-next" aria-label="Show next featured image">›</button>
+  </div>
+  <div class="home-carousel__dots" id="home-carousel-dots" aria-label="Featured image navigation"></div>
+</section>
+
+<script src="_generated/photo-manifest.js"></script>
+<script>
+const homeCarouselCategories = window.photoCategories ?? [];
+const homeCarouselImages = homeCarouselCategories.flatMap((category) =>
+  (category.images ?? [])
+    .filter((image) => image.on_home === 1)
+    .map((image) => ({
+      categoryLabel: category.label,
+      title: image.title || "",
+      src: image.full || image.thumb,
+    }))
+);
+
+for (let index = homeCarouselImages.length - 1; index > 0; index -= 1) {
+  const swapIndex = Math.floor(Math.random() * (index + 1));
+  [homeCarouselImages[index], homeCarouselImages[swapIndex]] = [
+    homeCarouselImages[swapIndex],
+    homeCarouselImages[index],
+  ];
+}
+
+const homeCarouselTrack = document.getElementById("home-carousel-track");
+const homeCarouselDots = document.getElementById("home-carousel-dots");
+const homeCarouselPrev = document.getElementById("home-carousel-prev");
+const homeCarouselNext = document.getElementById("home-carousel-next");
+const homeCarouselRoot = document.querySelector(".home-carousel");
+let homeCarouselIndex = 0;
+let homeCarouselTimer = null;
+
+function setHomeCarouselIndex(index) {
+  if (homeCarouselImages.length === 0) {
+    return;
+  }
+
+  homeCarouselIndex = (index + homeCarouselImages.length) % homeCarouselImages.length;
+  homeCarouselTrack.style.transform = `translateX(${-100 * homeCarouselIndex}%)`;
+
+  Array.from(homeCarouselDots.children).forEach((dot, dotIndex) => {
+    dot.setAttribute("aria-current", dotIndex === homeCarouselIndex ? "true" : "false");
+  });
+}
+
+function restartHomeCarouselTimer() {
+  if (homeCarouselTimer) {
+    window.clearInterval(homeCarouselTimer);
+  }
+  if (homeCarouselImages.length < 2) {
+    return;
+  }
+  homeCarouselTimer = window.setInterval(() => {
+    setHomeCarouselIndex(homeCarouselIndex + 1);
+  }, 3500);
+}
+
+if (homeCarouselImages.length === 0) {
+  homeCarouselRoot?.setAttribute("hidden", "");
+} else {
+  homeCarouselImages.forEach((image, index) => {
+    const slide = document.createElement("figure");
+    slide.className = "home-carousel__slide";
+
+    const slideImage = document.createElement("img");
+    slideImage.className = "home-carousel__image";
+    slideImage.src = image.src;
+    slideImage.alt = image.title || `${image.categoryLabel} featured image`;
+    slideImage.loading = index === 0 ? "eager" : "lazy";
+    slideImage.decoding = "async";
+
+    slide.appendChild(slideImage);
+    homeCarouselTrack.appendChild(slide);
+
+    const dot = document.createElement("button");
+    dot.type = "button";
+    dot.className = "home-carousel__dot";
+    dot.setAttribute("aria-label", `Show featured image ${index + 1}`);
+    dot.addEventListener("click", () => {
+      setHomeCarouselIndex(index);
+      restartHomeCarouselTimer();
+    });
+    homeCarouselDots.appendChild(dot);
+  });
+
+  homeCarouselPrev.addEventListener("click", () => {
+    setHomeCarouselIndex(homeCarouselIndex - 1);
+    restartHomeCarouselTimer();
+  });
+
+  homeCarouselNext.addEventListener("click", () => {
+    setHomeCarouselIndex(homeCarouselIndex + 1);
+    restartHomeCarouselTimer();
+  });
+
+  homeCarouselRoot?.addEventListener("mouseenter", () => {
+    if (homeCarouselTimer) {
+      window.clearInterval(homeCarouselTimer);
+    }
+  });
+
+  homeCarouselRoot?.addEventListener("mouseleave", restartHomeCarouselTimer);
+
+  setHomeCarouselIndex(0);
+  restartHomeCarouselTimer();
+}
+</script>
+
 <div class="medium-grid">
   <a class="medium-card" href="photography.html" aria-label="Open the Photography section">
     <img src="https://storage.googleapis.com/blogs_josa/creative/photos/animals/thumbnail/IMG_1786.jpg" alt="Photography section preview" loading="lazy">
@@ -249,7 +363,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/theasjblog\.github\.io\/art_portfolio\/");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

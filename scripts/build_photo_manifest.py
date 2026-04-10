@@ -63,6 +63,7 @@ def load_galleries(data_path: Path) -> list[dict[str, object]]:
                     "title": image.get("title", ""),
                     "caption": image.get("caption", ""),
                     "order": image.get("order"),
+                    "on_home": 1 if image.get("on_home") == 1 else 0,
                 }
             )
 
