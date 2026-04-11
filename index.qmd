@@ -4,8 +4,6 @@ title: "Welcome!"
 
 My name is Adrian. This site brings together two parts of my creative work: photography and drawings.
 
-Want a bit more context about me? [Read the About Me page](about.html).
-
 ---
 
 ```{=html}
@@ -69,7 +67,7 @@ function restartHomeCarouselTimer() {
   }
   homeCarouselTimer = window.setInterval(() => {
     setHomeCarouselIndex(homeCarouselIndex + 1);
-  }, 3500);
+  }, 2500);
 }
 
 if (homeCarouselImages.length === 0) {
