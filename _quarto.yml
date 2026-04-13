@@ -10,6 +10,7 @@ project:
 
 website:
   title: "ASJ Portfolio"
+  site-url: https://theasjblog.github.io/art_portfolio/
   favicon: assets/images/site/logo.png
 
 format:

@@ -6,6 +6,7 @@
   --gallery-border: rgba(255, 255, 255, 0.2);
   --gallery-frame: rgba(255, 255, 255, 0.92);
   --gallery-shadow: 0 20px 48px rgba(0, 0, 0, 0.45);
+  --site-content-width: min(1680px, 95vw);
 }
 
 body {
@@ -15,11 +16,25 @@ body {
   color: var(--gallery-ink);
 }
 
+#quarto-content.quarto-container {
+  max-width: none;
+  width: 100%;
+}
+
+#quarto-document-content {
+  grid-column: screen-start / screen-end !important;
+  justify-self: center;
+  max-width: none;
+  width: var(--site-content-width);
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .site-header {
   position: sticky;
   top: 0;
   z-index: 100;
-  margin: -1.5rem -1.5rem 1.75rem;
+  margin: -1.5rem 0 1.75rem;
   padding: 0;
   background: #ffffff;
   border-bottom: 1px solid rgba(17, 17, 17, 0.12);
@@ -31,7 +46,7 @@ body {
   align-items: center;
   justify-content: flex-start;
   gap: 0.75rem;
-  width: min(1100px, calc(100% - 2.2rem));
+  width: var(--site-content-width);
   margin: 0 auto;
   padding: 0.8rem 0;
 }
@@ -535,7 +550,8 @@ body {
 
 @media (max-width: 900px) {
   .site-header {
-    margin: -1rem -1rem 1.5rem;
+    margin-top: -1rem;
+    margin-bottom: 1.5rem;
   }
 
   .home-carousel__image {

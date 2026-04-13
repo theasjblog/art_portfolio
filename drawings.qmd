@@ -1,5 +1,6 @@
 ---
 title: "Drawings"
+page-layout: full
 ---
 
 This section collects the drawing side of the portfolio, including graphite work, watercolour pieces, and a smaller group of experiments in other materials.

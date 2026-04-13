@@ -1,5 +1,6 @@
 ---
 title: "Welcome!"
+page-layout: full
 ---
 
 My name is Adrian. This site brings together two parts of my creative work: photography and drawings.
